@@ -1,14 +1,632 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projeckt-1</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FindHouse</title>
+    <link rel="shortcut icon" href="img/header-logo-2.png" type="image/header-logo-2">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
   
-<!-- JS script -->
-<script src="js/main.js"></script>
-</body>
+    <script src="https://kit.fontawesome.com/55ba82b804.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    
+
+    <!-- Header start -->
+      <header class="background"> 
+      <!-- Nav start -->
+      <section id="naw">
+        <nav class="navbar navbar-expand-lg">
+          <div class="mmm">
+            <img src="img/header-logo-2.png" alt="header-logo-2">
+            <a class="findHouse navbar-brand" href="#">FindHouse</a>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nava nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nava  nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Property
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Listing</a>
+                  <a class="dropdown-item" href="#">Detail</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nava nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Agents
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Listing</a>
+                  <a class="dropdown-item" href="#">Detail</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nava nav-link" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nava nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nava nav-link" href="#">Login/Register</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </section>
+      <!-- Nav end -->
+
+      <!-- Text start  -->
+      <section id="text-home button">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="home-text text-center">
+                <h2 class="fz55">Find Your Dream Home</h2>
+                <p class="fz18">From as low as $10 per day with limited time offer discounts.</p>
+              </div>
+              <!-- Button start -->
+              <div class="button">
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Buy</a>
+                  <span class="tr"></span>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Rent</a>
+                  <span class="tr"></span>
+                </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                 <!-- <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                  <div class="tab-content home1_adsrchfrm" id="pills-tabContent">
+                    <div class="tab-pane fade active show" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                      <div class="home1-advnc-search">
+                        <ul class="h1ads_1st_list mb0">
+                          <li class="list-inline-item">
+                              <div class="form-group">
+                                <input type="text" class="form-control" id="exampleInputName1" placeholder="Enter keyword...">
+                              </div>
+                          </li>
+                          <li class="list-inline-item">
+                            <div class="search_option_two">
+                              <div class="candidate_revew_select">
+                                <div class="dropdown bootstrap-select w100 show-tick"><select class="selectpicker w100 show-tick" tabindex="-98">
+                                  <option>Property Type</option>
+                                  <option>Apartment</option>
+                                  <option>Bungalow</option>
+                                  <option>Condo</option>
+                                  <option>House</option>
+                                  <option>Land</option>
+                                  <option>Single Family</option>
+                                </select><button type="button" class="btn dropdown-toggle btn-light" data-toggle="dropdown" role="button" title="Property Type"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Property Type</div></div> </div></button><div class="dropdown-menu " role="combobox"><div class="inner show" role="listbox" aria-expanded="false" tabindex="-1"><ul class="dropdown-menu inner show"></ul></div></div></div>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="list-inline-item">
+                              <div class="form-group">
+                                <input type="text" class="form-control" id="exampleInputEmail" placeholder="Location">
+                                <label for="exampleInputEmail"><span class="flaticon-maps-and-flags"></span></label>
+                              </div>
+                          </li>
+                          <li class="list-inline-item">
+                            <div class="small_dropdown2">
+                                <div id="prncgs" class="btn dd_btn">
+                                  <span>Price</span>
+                                  <label for="exampleInputEmail2"><span class="fa fa-angle-down"></span></label>
+                                </div>
+                                <div class="dd_content2">
+                                  <div class="pricing_acontent">
+                                  <input type="text" class="amount" placeholder="$52,239"> 
+                                  <input type="text" class="amount2" placeholder="$985,14">
+                                  <div class="slider-range ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content"><div class="ui-slider-range ui-corner-all ui-widget-header" style="left: 2.79875%; width: 57.8438%;"></div><span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 2.79875%;"></span><span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 60.6425%;"></span></div>
+                                  </div>
+                                </div>
+                            </div>
+                          </li>
+                          <li class="custome_fields_520 list-inline-item">
+                            <div class="navbered">
+                                <div class="mega-dropdown">
+                                  <span id="show_advbtn" class="dropbtn">Advanced <i class="flaticon-more pl10 flr-520"></i></span>
+                                  <div class="dropdown-content">
+                                      <div class="row p15">
+                                        <div class="col-lg-12">
+                                          <h4 class="text-thm3">Amenities</h4>
+                                        </div>
+                                        <div class="col-xxs-6 col-sm col-lg col-xl">
+                                              <ul class="ui_kit_checkbox selectable-list">
+                                                <li>
+                                          <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                            <label class="custom-control-label" for="customCheck1">Air Conditioning</label>
+                                          </div>
+                                                </li>
+                                                <li>
+                                          <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                            <label class="custom-control-label" for="customCheck2">Lawn</label>
+                                          </div>
+                                                </li>
+                                                <li>
+                                          <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck3">
+                                            <label class="custom-control-label" for="customCheck3">Swimming Pool</label>
+                                          </div>
+                                                </li>
+                                              </ul>
+                                        </div>
+                                        <div class="col-xxs-6 col-sm col-lg col-xl">
+                                              <ul class="ui_kit_checkbox selectable-list">
+                                                <li>
+                                          <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck4">
+                                            <label class="custom-control-label" for="customCheck4">Barbeque</label>
+                                          </div>
+                                                </li>
+                                                <li>
+                                          <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck5">
+                                            <label class="custom-control-label" for="customCheck5">Microwave</label>
+                                          </div>
+                                                </li>
+                                                <li>
+                                          <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck6">
+                                            <label class="custom-control-label" for="customCheck6">TV Cable</label>
+                                          </div>
+                                                </li>
+                                              </ul>
+                                        </div>
+                                        <div class="col-xxs-6 col-sm col-lg col-xl">
+                                              <ul class="ui_kit_checkbox selectable-list">
+                                                <li>
+                                          <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck7">
+                                            <label class="custom-control-label" for="customCheck7">Dryer</label>
+                                          </div>
+                                                </li>
+                                                <li>
+                                          <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck8">
+                                            <label class="custom-control-label" for="customCheck8">Outdoor Shower</label>
+                                          </div>
+                                                </li>
+                                                <li>
+                                          <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck9">
+                                            <label class="custom-control-label" for="customCheck9">Washer</label>
+                                          </div>
+                                                </li>
+                                              </ul>
+                                        </div>
+                                        <div class="col-xxs-6 col-sm col-lg col-xl">
+                                              <ul class="ui_kit_checkbox selectable-list">
+                                                <li>
+                                          <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck10">
+                                            <label class="custom-control-label" for="customCheck10">Gym</label>
+                                          </div>
+                                                </li>
+                                                <li>
+                                          <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck11">
+                                            <label class="custom-control-label" for="customCheck11">Refrigerator</label>
+                                          </div>
+                                                </li>
+                                                <li>
+                                          <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck12">
+                                            <label class="custom-control-label" for="customCheck12">WiFi</label>
+                                          </div>
+                                                </li>
+                                              </ul>
+                                        </div>
+                                        <div class="col-xxs-6 col-sm col-lg col-xl">
+                                              <ul class="ui_kit_checkbox selectable-list">
+                                                <li>
+                                          <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck13">
+                                            <label class="custom-control-label" for="customCheck13">Laundry</label>
+                                          </div>
+                                                </li>
+                                                <li>
+                                          <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck14">
+                                            <label class="custom-control-label" for="customCheck14">Sauna</label>
+                                          </div>
+                                                </li>
+                                                <li>
+                                          <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck15">
+                                            <label class="custom-control-label" for="customCheck15">Window Coverings</label>
+                                          </div>
+                                                </li>
+                                              </ul>
+                                        </div>
+                                      </div>
+                                      <div class="row p15 pt0-xsd">
+                                        <div class="col-lg-11 col-xl-10">
+                                          <ul class="apeartment_area_list mb0">
+                                            <li class="list-inline-item">
+                                          <div class="candidate_revew_select">
+                                            <div class="dropdown bootstrap-select w100 show-tick"><select class="selectpicker w100 show-tick" tabindex="-98">
+                                              <option>Bathrooms</option>
+                                              <option>1</option>
+                                              <option>2</option>
+                                              <option>3</option>
+                                              <option>4</option>
+                                              <option>5</option>
+                                              <option>6</option>
+                                              <option>7</option>
+                                              <option>8</option>
+                                            </select><button type="button" class="btn dropdown-toggle btn-light" data-toggle="dropdown" role="button" title="Bathrooms"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Bathrooms</div></div> </div></button><div class="dropdown-menu " role="combobox"><div class="inner show" role="listbox" aria-expanded="false" tabindex="-1"><ul class="dropdown-menu inner show"></ul></div></div></div>
+                                          </div>
+                                            </li>
+                                            <li class="list-inline-item">
+                                          <div class="candidate_revew_select">
+                                            <div class="dropdown bootstrap-select w100 show-tick"><select class="selectpicker w100 show-tick" tabindex="-98">
+                                              <option>Bedrooms</option>
+                                              <option>1</option>
+                                              <option>2</option>
+                                              <option>3</option>
+                                              <option>4</option>
+                                              <option>5</option>
+                                              <option>6</option>
+                                              <option>7</option>
+                                              <option>8</option>
+                                            </select><button type="button" class="btn dropdown-toggle btn-light" data-toggle="dropdown" role="button" title="Bedrooms"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Bedrooms</div></div> </div></button><div class="dropdown-menu " role="combobox"><div class="inner show" role="listbox" aria-expanded="false" tabindex="-1"><ul class="dropdown-menu inner show"></ul></div></div></div>
+                                          </div>
+                                            </li>
+                                            <li class="list-inline-item">
+                                          <div class="candidate_revew_select">
+                                            <div class="dropdown bootstrap-select w100 show-tick"><select class="selectpicker w100 show-tick" tabindex="-98">
+                                              <option>Year built</option>
+                                              <option>2013</option>
+                                              <option>2014</option>
+                                              <option>2015</option>
+                                              <option>2016</option>
+                                              <option>2017</option>
+                                              <option>2018</option>
+                                              <option>2019</option>
+                                              <option>2020</option>
+                                            </select><button type="button" class="btn dropdown-toggle btn-light" data-toggle="dropdown" role="button" title="Year built"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Year built</div></div> </div></button><div class="dropdown-menu " role="combobox"><div class="inner show" role="listbox" aria-expanded="false" tabindex="-1"><ul class="dropdown-menu inner show"></ul></div></div></div>
+                                          </div>
+                                            </li>
+                                            <li class="list-inline-item">
+                                          <div class="candidate_revew_select">
+                                            <div class="dropdown bootstrap-select w100 show-tick"><select class="selectpicker w100 show-tick" tabindex="-98">
+                                              <option>Built-up Area</option>
+                                              <option>Adana</option>
+                                              <option>Ankara</option>
+                                              <option>Antalya</option>
+                                              <option>Bursa</option>
+                                              <option>Bodrum</option>
+                                              <option>Gaziantep</option>
+                                              <option>İstanbul</option>
+                                              <option>İzmir</option>
+                                              <option>Konya</option>
+                                            </select><button type="button" class="btn dropdown-toggle btn-light" data-toggle="dropdown" role="button" title="Built-up Area"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Built-up Area</div></div> </div></button><div class="dropdown-menu " role="combobox"><div class="inner show" role="listbox" aria-expanded="false" tabindex="-1"><ul class="dropdown-menu inner show"></ul></div></div></div>
+                                          </div>
+                                            </li>
+                                          </ul>
+                                        </div>
+                                        <div class="col-lg-1 col-xl-2">
+                                          <div class="mega_dropdown_content_closer">
+                                            <h5 class="text-thm text-right mt15"><span id="hide_advbtn" class="curp">Hide</span></h5>
+                                          </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="list-inline-item">
+                            <div class="search_option_button">
+                                <button type="submit" class="btn btn-thm">Search</button>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                      <div class="home1-advnc-search">
+                        <ul class="h1ads_1st_list mb0">
+                          <li class="list-inline-item">
+                              <div class="form-group">
+                                <input type="text" class="form-control" id="exampleInputName2" placeholder="Enter keyword...">
+                              </div>
+                          </li>
+                          <li class="list-inline-item">
+                            <div class="search_option_two">
+                              <div class="candidate_revew_select">
+                                <div class="dropdown bootstrap-select w100 show-tick"><select class="selectpicker w100 show-tick" tabindex="-98">
+                                  <option>Property Type</option>
+                                  <option>Apartment</option>
+                                  <option>Bungalow</option>
+                                  <option>Condo</option>
+                                  <option>House</option>
+                                  <option>Land</option>
+                                  <option>Single Family</option>
+                                </select><button type="button" class="btn dropdown-toggle btn-light" data-toggle="dropdown" role="button" title="Property Type"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Property Type</div></div> </div></button><div class="dropdown-menu " role="combobox"><div class="inner show" role="listbox" aria-expanded="false" tabindex="-1"><ul class="dropdown-menu inner show"></ul></div></div></div>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="list-inline-item">
+                              <div class="form-group">
+                                <input type="text" class="form-control" id="exampleInputEmail3" placeholder="Location">
+                                <label for="exampleInputEmail3"><span class="flaticon-maps-and-flags"></span></label>
+                              </div>
+                          </li>
+                          <li class="list-inline-item">
+                            <div class="small_dropdown2">
+                                <div id="prncgs2" class="btn dd_btn">
+                                  <span>Price</span>
+                                  <label for="exampleInputEmail4"><span class="fa fa-angle-down"></span></label>
+                                </div>
+                                <div class="dd_content2">
+                                  <div class="pricing_acontent">
+                                  <input type="text" class="amount" placeholder="$52,239"> 
+                                  <input type="text" class="amount2" placeholder="$985,14">
+                                  <div class="slider-range ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content"><div class="ui-slider-range ui-corner-all ui-widget-header" style="left: 2.79875%; width: 57.8438%;"></div><span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 2.79875%;"></span><span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 60.6425%;"></span></div>
+                                  </div>
+                                </div>
+                            </div>
+                          </li>
+                          <li class="custome_fields_520 list-inline-item">
+                            <div class="navbered">
+                                <div class="mega-dropdown">
+                                  <span id="show_advbtn2" class="dropbtn">Advanced <i class="flaticon-more pl10 flr-520"></i></span>
+                                  <div class="dropdown-content">
+                                      <div class="row p15">
+                                        <div class="col-lg-12">
+                                          <h4 class="text-thm3">Amenities</h4>
+                                        </div>
+                                        <div class="col-xxs-6 col-sm col-lg col-xl">
+                                              <ul class="ui_kit_checkbox selectable-list">
+                                                <li>
+                                          <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck16">
+                                            <label class="custom-control-label" for="customCheck16">Air Conditioning</label>
+                                          </div>
+                                                </li>
+                                                <li>
+                                          <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck17">
+                                            <label class="custom-control-label" for="customCheck17">Lawn</label>
+                                          </div>
+                                                </li>
+                                                <li>
+                                          <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck18">
+                                            <label class="custom-control-label" for="customCheck18">Swimming Pool</label>
+                                          </div>
+                                                </li>
+                                              </ul>
+                                        </div>
+                                        <div class="col-xxs-6 col-sm col-lg col-xl">
+                                              <ul class="ui_kit_checkbox selectable-list">
+                                                <li>
+                                          <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck19">
+                                            <label class="custom-control-label" for="customCheck19">Barbeque</label>
+                                          </div>
+                                                </li>
+                                                <li>
+                                          <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck20">
+                                            <label class="custom-control-label" for="customCheck20">Microwave</label>
+                                          </div>
+                                                </li>
+                                                <li>
+                                          <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck21">
+                                            <label class="custom-control-label" for="customCheck21">TV Cable</label>
+                                          </div>
+                                                </li>
+                                              </ul>
+                                        </div>
+                                        <div class="col-xxs-6 col-sm col-lg col-xl">
+                                              <ul class="ui_kit_checkbox selectable-list">
+                                                <li>
+                                          <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck22">
+                                            <label class="custom-control-label" for="customCheck22">Dryer</label>
+                                          </div>
+                                                </li>
+                                                <li>
+                                          <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck23">
+                                            <label class="custom-control-label" for="customCheck23">Outdoor Shower</label>
+                                          </div>
+                                                </li>
+                                                <li>
+                                          <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck24">
+                                            <label class="custom-control-label" for="customCheck24">Washer</label>
+                                          </div>
+                                                </li>
+                                              </ul>
+                                        </div>
+                                        <div class="col-xxs-6 col-sm col-lg col-xl">
+                                              <ul class="ui_kit_checkbox selectable-list">
+                                                <li>
+                                          <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck25">
+                                            <label class="custom-control-label" for="customCheck25">Gym</label>
+                                          </div>
+                                                </li>
+                                                <li>
+                                          <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck26">
+                                            <label class="custom-control-label" for="customCheck26">Refrigerator</label>
+                                          </div>
+                                                </li>
+                                                <li>
+                                          <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck27">
+                                            <label class="custom-control-label" for="customCheck27">WiFi</label>
+                                          </div>
+                                                </li>
+                                              </ul>
+                                        </div>
+                                        <div class="col-xxs-6 col-sm col-lg col-xl">
+                                              <ul class="ui_kit_checkbox selectable-list">
+                                                <li>
+                                          <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck28">
+                                            <label class="custom-control-label" for="customCheck28">Laundry</label>
+                                          </div>
+                                                </li>
+                                                <li>
+                                          <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck29">
+                                            <label class="custom-control-label" for="customCheck29">Sauna</label>
+                                          </div>
+                                                </li>
+                                                <li>
+                                          <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customCheck30">
+                                            <label class="custom-control-label" for="customCheck30">Window Coverings</label>
+                                          </div>
+                                                </li>
+                                              </ul>
+                                        </div>
+                                      </div>
+                                      <div class="row p15 pt0-xsd">
+                                        <div class="col-lg-11 col-xl-10">
+                                          <ul class="apeartment_area_list mb0">
+                                            <li class="list-inline-item">
+                                          <div class="candidate_revew_select">
+                                            <div class="dropdown bootstrap-select w100 show-tick"><select class="selectpicker w100 show-tick" tabindex="-98">
+                                              <option>Bathrooms</option>
+                                              <option>1</option>
+                                              <option>2</option>
+                                              <option>3</option>
+                                              <option>4</option>
+                                              <option>5</option>
+                                              <option>6</option>
+                                              <option>7</option>
+                                              <option>8</option>
+                                            </select><button type="button" class="btn dropdown-toggle btn-light" data-toggle="dropdown" role="button" title="Bathrooms"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Bathrooms</div></div> </div></button><div class="dropdown-menu " role="combobox"><div class="inner show" role="listbox" aria-expanded="false" tabindex="-1"><ul class="dropdown-menu inner show"></ul></div></div></div>
+                                          </div>
+                                            </li>
+                                            <li class="list-inline-item">
+                                          <div class="candidate_revew_select">
+                                            <div class="dropdown bootstrap-select w100 show-tick"><select class="selectpicker w100 show-tick" tabindex="-98">
+                                              <option>Bedrooms</option>
+                                              <option>1</option>
+                                              <option>2</option>
+                                              <option>3</option>
+                                              <option>4</option>
+                                              <option>5</option>
+                                              <option>6</option>
+                                              <option>7</option>
+                                              <option>8</option>
+                                            </select><button type="button" class="btn dropdown-toggle btn-light" data-toggle="dropdown" role="button" title="Bedrooms"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Bedrooms</div></div> </div></button><div class="dropdown-menu " role="combobox"><div class="inner show" role="listbox" aria-expanded="false" tabindex="-1"><ul class="dropdown-menu inner show"></ul></div></div></div>
+                                          </div>
+                                            </li>
+                                            <li class="list-inline-item">
+                                          <div class="candidate_revew_select">
+                                            <div class="dropdown bootstrap-select w100 show-tick"><select class="selectpicker w100 show-tick" tabindex="-98">
+                                              <option>Year built</option>
+                                              <option>2013</option>
+                                              <option>2014</option>
+                                              <option>2015</option>
+                                              <option>2016</option>
+                                              <option>2017</option>
+                                              <option>2018</option>
+                                              <option>2019</option>
+                                              <option>2020</option>
+                                            </select><button type="button" class="btn dropdown-toggle btn-light" data-toggle="dropdown" role="button" title="Year built"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Year built</div></div> </div></button><div class="dropdown-menu " role="combobox"><div class="inner show" role="listbox" aria-expanded="false" tabindex="-1"><ul class="dropdown-menu inner show"></ul></div></div></div>
+                                          </div>
+                                            </li>
+                                            <li class="list-inline-item">
+                                          <div class="candidate_revew_select">
+                                            <div class="dropdown bootstrap-select w100 show-tick"><select class="selectpicker w100 show-tick" tabindex="-98">
+                                              <option>Built-up Area</option>
+                                              <option>Adana</option>
+                                              <option>Ankara</option>
+                                              <option>Antalya</option>
+                                              <option>Bursa</option>
+                                              <option>Bodrum</option>
+                                              <option>Gaziantep</option>
+                                              <option>İstanbul</option>
+                                              <option>İzmir</option>
+                                              <option>Konya</option>
+                                            </select><button type="button" class="btn dropdown-toggle btn-light" data-toggle="dropdown" role="button" title="Built-up Area"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Built-up Area</div></div> </div></button><div class="dropdown-menu " role="combobox"><div class="inner show" role="listbox" aria-expanded="false" tabindex="-1"><ul class="dropdown-menu inner show"></ul></div></div></div>
+                                          </div>
+                                            </li>
+                                          </ul>
+                                        </div>
+                                        <div class="col-lg-1 col-xl-2">
+                                          <div class="mega_dropdown_content_closer">
+                                            <h5 class="text-thm text-right mt15"><span id="hide_advbtn2" class="curp">Hide</span></h5>
+                                          </div>
+                                        </div>
+                                      </div>
+                                  </div>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="list-inline-item">
+                            <div class="search_option_button">
+                                <button type="submit" class="btn btn-thm">Search</button>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                 </div>
+                 <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+                </div> -->
+              </div>
+              <!-- Button end -->
+            </div>
+          </div>
+        </div>
+        
+      </section>
+      <!-- Text stop -->
+    </header>
+    <!-- Header stop -->
+
+    <!-- main start -->
+    <section class="featured-properties">
+      <div class="container featured">
+        <div class="row">
+          <div class="col-lg-6 offset-lg-3 mt-5">
+            <div class="main-title text-center mb40">
+              <h2>Featured Properties</h2>
+              <p>Handpicked properties by our team.</p>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- main start -->
+
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <script src="js/main.js"></script>
+    <!-- <script src="js/preloaders.js"></script>  -->
+  </body>
 </html>
