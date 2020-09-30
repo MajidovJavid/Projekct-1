@@ -15,6 +15,31 @@ $(document).ready(function(){
           $('header').css('padding-top', '0')
       }
 
-  })
+  });
 
-})
+
+  $("a").yashillashdir({ color: "orange", loop: true });
+  $("p").yashillashdir().addClass("active");
+  $("span").yashillashdir();
+
+  $(".owl-carousel").owlCarousel({
+    loop: true,
+    margin: 50,
+    nav: true,
+    responsive: {
+      0: {
+        items: 1,
+        nav: false,
+      },
+      800: {
+        items: 3,
+      },
+      7000: {
+        items: 9,
+      },
+    },
+  });
+
+});
+
+
