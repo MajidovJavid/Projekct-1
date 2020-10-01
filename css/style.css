@@ -1,3 +1,7 @@
+/* ............................................
+...................Header......................
+............................................ */
+
 
 /*................ background img................ */
 .background {
@@ -154,24 +158,23 @@
 }
 
 
-/*
+
 .trt {
-  content: "";
   background-color: #ff5a5f;
   height: 20px;
   margin-left: -27px;
-  position: absolute;
+  position: relative;
   top: 35px;
   width: 20px;
   transform: rotate(45deg);
 
 
-}
+} 
 
-.bbt {
+/* .bbt {
   display: flex;
   justify-content: center;
-} */
+}  */
 
 .button {
   display: flex;
@@ -182,14 +185,16 @@
 }
 
 
-/*................Featured Properties................ */
+/* ............................................
+.............Featured Properties...............
+............................................ */
 
 .featured-properties {
   background-color: #F7F7F7FF !important;
 }
 
 .featured {
-height: 700px;
+height: 620px;
 }
 
 .offset-lg-3 {
@@ -198,7 +203,7 @@ height: 700px;
   max-width: 50%;
 }
 
-.main-title h2 {
+.feat {
   color: #484848 !important;
   
   line-height: 1.2;
@@ -206,7 +211,7 @@ height: 700px;
   margin-top: 0;
 }
 
-.main-title p {
+.hand {
   font-size: 16px;
   color: rgb(119, 119, 119) !important;
   line-height: 1.2;
@@ -214,13 +219,13 @@ height: 700px;
 }
 
 /*................Featured Carusel................ */
+
 .owl-carousel::after, ::before {
   box-sizing: border-box !important;
 }
 
 .owl-item {
   width: 330px !important; 
-  /* margin-right: 30px !important; */
 }
 
 .owl-nav {
@@ -265,6 +270,7 @@ height: 700px;
   font-family: "Nunito";
   color: white !important;
   line-height: 1.2;
+  text-decoration: none !important;
 }
 
 .foee {
@@ -281,6 +287,7 @@ height: 700px;
   font-family: "Nunito";
   color: white !important;
   line-height: 1.2;
+  text-decoration: none !important;
 }
 
 .tag {
@@ -323,6 +330,7 @@ height: 700px;
   left: 29px;
   line-height: 1.2;
   position: relative;
+  text-decoration: none !important;
 }
 
 .text-thm {
@@ -360,5 +368,279 @@ height: 700px;
 }
 
 .card:hover {
-  box-shadow: 10px 10px 10px 8px rgba(0,0,0,0.2);
+  box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.247);
+}
+
+
+/* ............................................
+....................Cities.....................
+............................................ */
+
+.cities {
+  height: 880px;
+}
+
+.city {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+/*................citi foto................ */
+
+.col-lg-4, .col-lg-8 {
+  margin: 0 0 30px;
+  position: relative;
+}
+
+
+.detail {
+  background: linear-gradient(180deg, rgba(255,255,255,0.01) 0%, rgba(29,41,62,1) 100%);
+  border-radius: 0px 0px 10px 10px;
+  bottom: 0;
+  height: 230px;
+  left: 16px;
+  position: absolute;
+  right: 16px;
+  text-align: center;
+}
+
+.tt {
+  margin-top: 170px;
+}
+
+.detail h4 {
+  color: #ffffff !important;
+  font-size: 18px;
+  font-family: "Nunito";
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.detail p {
+  font-size: 14px;
+  font-family: "Nunito";
+  color: #ffffff !important;
+  line-height: 1.2;
+}
+
+.cil {
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.img-fluid:hover {
+transform: rotate(-2deg) scale(1.1);
+transition: all 0.6s ease !important;
+}
+
+
+/* ............................................
+..................why choose us...............
+............................................ */
+
+
+.choose_us {
+  height: 600px;
+  background-color: #F7F7F7FF;
+}
+
+
+/* ....................Text....................... */
+
+
+.main-title {
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.main-title h2 {
+  color: #484848;
+  font-family: "Nunito";
+  line-height: 1.2;
+  margin-bottom: 10px;
+  margin-top: 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+.main-title p {
+ font-size: 16px;
+ font-family: "Nunito";
+ color: rgb(119, 119, 119);
+ line-height: 1.2;
+ margin-bottom: 0;
+}
+
+
+
+/* ....................Card....................... */
+
+.why_chose_us {
+  background-color: #ffffff !important;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  padding: 50px 41px 30px 41px;
+  position: relative;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.why_chose_us:hover {
+  box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.247);
+}
+
+.why_chose_us .icon {
+  background-color: #ffe8e9 !important;
+  border-radius: 50%;
+  height: 130px;
+  line-height: 130px;
+  margin: 0 0 0 70px !important;
+  width: 130px;
+  transition: all 0.3s ease;
+}
+
+.why_chose_us .icon:hover {
+  background-color: #ff5a5f !important;
+  border-radius: 50%;
+  height: 130px;
+  line-height: 130px;
+  margin: 0 0 0 70px !important;
+  width: 130px;
+}
+
+
+.why_chose_us .icon span {
+  color: #ff5a5f !important;
+  font-size: 68px;
+  line-height: 130px;
+  transition: all 0.2s ease;
+}
+
+.why_chose_us .icon span:hover {
+  color: white !important;
+  font-size: 68px;
+  line-height: 130px;
+}
+
+
+.why_chose_us .details {
+  margin-top: 50px;
+}
+
+.why_chose_us .details h4 {
+  font-family: "Nunito";
+  color: #484848;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.why_chose_us .details p {
+  font-size: 14px;
+  font-family: "Nunito";
+  line-height: 1.714;
+  color: #484848 !important;
+}
+/* ............................................
+................Testimonials................
+............................................ */
+
+.our-testimo {
+  background-image: url('../img/2.jpg');
+  background-size: cover;
+  background-position:  right right ;
+  height: 450px;
+  
+}
+
+/* ....................Text....................... */
+
+.text-center {
+  color: #ffffff !important;
+}
+
+.testi {
+  color: #ffffff !important;
+  font-family: "Nunito" !important;
+  line-height: 1.2 !important;
+  margin-bottom: 10px !important;
+  margin-top: 0 !important;
+}
+
+.here {
+  font-size: 16px !important;
+  font-family: "Nunito" !important;
+  color: #ffffff !important;
+  line-height: 1.2 !important ;
+  margin-bottom: 0 !important;
+}
+
+/*................Testimonials Carusel................ */
+
+
+.lala{
+  border-radius: 50%;
+  background-size: cover;
+  background-position: right right;
+  height: 264px;
+  width: 264px;
+  transform: scale(0.4);
+  border-style: solid !important;
+  border-color: rgba(97, 95, 95, 0.5) !important;
+  border-width: 15px;
+  display: flex;
+  justify-self: center;
+  margin: -60px 0 0 125px !important;
+}
+
+
+.arm {
+  width: 500px;
+  background-color: rgba(255, 255, 255, 0) !important;
+  border: 1px solid rgba(255, 255, 255, 0) !important;
+}
+
+.arm:hover {
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0) !important;
+}
+.card-img-top {
+  opacity: 1 !important;
+  object-fit: cover;
+}
+
+.mb-2 {
+margin-bottom: -60px !important;
+}
+
+.sil {
+  margin: -90px 0 100px 195px;
+}
+
+.august {
+  color: #ffffff;
+  margin: 0 0 39px -2px;
+  font-size: 17px;
+  font-family: 'Nunito', sans-serif;
+  line-height: 1.2;
+  
+}
+
+.mt24{
+  color: #ffffff !important;
+  margin: -35px 0 40px 6px;
+  font-size: 13px;
+  font-family: 'Nunito', sans-serif;
+  line-height: 1.2;
+}
+
+.mt25 {
+  font-size: 14px;
+  font-family: "Nunito";
+  color: #ffffff !important;
+  line-height: 1.429;
+  margin: 0 0 0 -150px;
+  text-align: center;
 }
