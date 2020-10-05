@@ -2,7 +2,7 @@
 $(document).ready(function(){
 
   $(window).scroll(function(){
-      var navbar = $('header nav'),
+      let navbar = $('header nav'),
           navHeight = navbar.height(),
           scrollPos = $(this).scrollTop();
 
@@ -24,7 +24,7 @@ $(document).ready(function(){
 
   $(".owl-carousel").owlCarousel({
     loop: true,
-    margin: 50,
+    margin: 60,
     nav: true,
     responsive: {
       0: {
@@ -43,18 +43,8 @@ $(document).ready(function(){
 });
 
 
-$('.carousel.carousel-multi-item.v-2 .carousel-item').each(function(){
-  var next = $(this).next();
-  if (!next.length) {
-    next = $(this).siblings(':first');
-  }
-  next.children(':first-child').clone().appendTo($(this));
 
-  for (var i=0;i<4;i++) {
-    next=next.next();
-    if (!next.length) {
-      next=$(this).siblings(':first');
-    }
-    next.children(':first-child').clone().appendTo($(this));
-  }
-});
+window.onscroll = function button() {
+  document.getElementById('button').style.display = (window.pageYOffset > '200' ? 'block' : 'none');
+}
+
