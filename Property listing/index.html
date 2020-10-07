@@ -3,33 +3,33 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FindHouse - Home page</title>
+    <title>FindHouse - Property listing</title>
     <link
-    rel="shortcut icon" href="img/header-logo-2.png" type="image/header-logo-2">
+    rel="shortcut icon" href="../img/header-logo-2.png" type="image/header-logo-2">
     <!-- CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
   
     <script src="https://kit.fontawesome.com/55ba82b804.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="css/assets/owl.carousel.min.css"/>
-    <link rel="stylesheet" href="css/assets/owl.theme.default.min.css"/>
-    <link rel="stylesheet" href="css/assets/modal.css">
+    <link rel="stylesheet" href="../css/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="../css/assets/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="../css/assets/modal.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/Flaticon.css">
+    <link rel="stylesheet" href="../css/Flaticon.css">
   </head>
   <body>
 
 
     <!-- Header start -->
     <header
-      class="background" role="banner">
+       role="banner">
       <!-- Nav start -->
       <section id="naw">
-        <nav class="navbar navbar-expand-lg main-nav">
+        <nav class="navbar navbar-expand-lg main-nav bg-white">
           <div class="mmm">
-            <img src="img/header-logo-2.png" alt="header-logo-2">
-            <a class="findHouse navbar-brand loro" href="#">FindHouse</a>
+            <img src="../img/header-logo-2.png" alt="header-logo-2">
+            <a class="findHouse navbar-brand loro"  href="#">FindHouse</a>
           </div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -44,7 +44,7 @@
                   Property
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item loro" href="file:///C:/Users/user/Desktop/code%20academy/Projekct-1/Property%20listing/index.html#">Listing</a>
+                  <a class="dropdown-item loro" href="#">Listing</a>
                   <a class="dropdown-item loro" href="#">Detail</a>
                 </div>
               </li>
@@ -74,60 +74,295 @@
       </section>
       <!-- Nav end -->
 
-      <!-- Text start  -->
-      <section id="text-home button">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="home-text text-center">
-                <h2 class="fz55">Find Your Dream Home</h2>
-                <p class="fz18">From as low as $10 per day with limited time offer discounts.</p>
-              </div>
-              <!-- Button start -->
-              <div class="button">
-                <ul class="nav nav-pills  mb-3" id="pills-tab" role="tablist">
-                  
-                  <li class="nav-item" role="presentation">
-                    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Buy</a>
-                  </li>
-
-                  <li class="nav-item" role="presentation">
-                    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Rent</a>
-                  </li>
-
-                </ul>
-                <div class="tab-content" id="pills-tabContent"></div>
-                <!-- Button end -->
-              </div>
-            </div>
-          </div>
-
-        </section>
-        <!-- Text stop -->
       </header>
       <!-- Header stop -->
 
       <!-- main start -->
       <main>
-        <!-- featured start -->
-        <section class="featured-properties">
-          <div class="container featured">
-            <div class="row">
-              <div class="col-lg-6 offset-lg-3 mt-5">
-                <div class="main-title text-center mb40">
-                  <h2 class="feat">Featured Properties</h2>
-                  <p class="hand">Handpicked properties by our team.</p>
+       <!-- section start  -->
+
+       <section class="our-listing bgc-f7 pb30-991 main">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="breadcrumb_content style2 mt30-767 mb30-767">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a class="home" href="#">Home</a></li>
+                    <li class="breadcrumb-item active tet-thm" aria-current="page">Property – Listing</li>
+                </ol>
+                <h2 class="breadcrumb_title">Property – Listing</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-xl-4">
+              <div class="sidebar_listing_list dn-991">
+                <div class="sidebar_advanced_search_widget">
+                  <ul class="sasw_list mb0">
+                    <li class="search_area">
+                        <div class="form-group">
+                          <input type="text" class="form-control" id="exampleInputName1" placeholder="keyword">
+                          <label for="exampleInputEmail"><span class="flaticon-magnifying-glass"></span></label>
+                        </div>
+                    </li>
+                    <li class="search_area">
+                        <div class="form-group">
+                          <input type="text" class="form-control" id="exampleInputEmail" placeholder="Location">
+                          <label for="exampleInputEmail"><span class="flaticon-maps-and-flags"></span></label>
+                        </div>
+                    </li>
+                    <li>
+                      <div class="search_option_two">
+                        <div class="candidate_revew_select">
+                          <div class="dropdown bootstrap-select w100 show-tick dropup"><select class="selectpicker w100 show-tick" tabindex="-98">
+                            <option>Status</option>
+                            <option>Apartment</option>
+                            <option>Bungalow</option>
+                            <option>Condo</option>
+                            <option>House</option>
+                            <option>Land</option>
+                            <option>Single Family</option>
+                          </select><button type="button" class="btn dropdown-toggle btn-light" data-toggle="dropdown" role="button" title="Status" aria-expanded="false"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Status</div></div> </div></button><div class="dropdown-menu" role="combobox" style="max-height: 421.177px; overflow: hidden; min-height: 119px; min-width: 1430px;"><div class="inner show" role="listbox" aria-expanded="false" tabindex="-1" style="max-height: 403.177px; overflow-y: auto; min-height: 101px;"><ul class="dropdown-menu inner show"><li class="selected active"><a role="option" class="dropdown-item selected active" aria-disabled="false" tabindex="0" aria-selected="true"><span class=" bs-ok-default check-mark"></span><span class="text">Status</span></a></li><li><a role="option" class="dropdown-item" aria-disabled="false" tabindex="0" aria-selected="false"><span class=" bs-ok-default check-mark"></span><span class="text">Apartment</span></a></li><li><a role="option" class="dropdown-item" aria-disabled="false" tabindex="0" aria-selected="false"><span class=" bs-ok-default check-mark"></span><span class="text">Bungalow</span></a></li><li><a role="option" class="dropdown-item" aria-disabled="false" tabindex="0" aria-selected="false"><span class=" bs-ok-default check-mark"></span><span class="text">Condo</span></a></li><li><a role="option" class="dropdown-item" aria-disabled="false" tabindex="0" aria-selected="false"><span class=" bs-ok-default check-mark"></span><span class="text">House</span></a></li><li><a role="option" class="dropdown-item" aria-disabled="false" tabindex="0" aria-selected="false"><span class=" bs-ok-default check-mark"></span><span class="text">Land</span></a></li><li><a role="option" class="dropdown-item" aria-disabled="false" tabindex="0" aria-selected="false"><span class=" bs-ok-default check-mark"></span><span class="text">Single Family</span></a></li></ul></div></div></div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="search_option_two">
+                        <div class="candidate_revew_select">
+                          <div class="dropdown bootstrap-select w100 show-tick"><select class="selectpicker w100 show-tick" tabindex="-98">
+                            <option>Property Type</option>
+                            <option>Apartment</option>
+                            <option>Bungalow</option>
+                            <option>Condo</option>
+                            <option>House</option>
+                            <option>Land</option>
+                            <option>Single Family</option>
+                          </select><button type="button" class="btn dropdown-toggle btn-light" data-toggle="dropdown" role="button" title="Property Type" aria-expanded="false"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Property Type</div></div> </div></button><div class="dropdown-menu" role="combobox" style="max-height: 1460.05px; overflow: hidden; min-height: 119px; min-width: 1430px;"><div class="inner show" role="listbox" aria-expanded="false" tabindex="-1" style="max-height: 1442.05px; overflow-y: auto; min-height: 101px;"><ul class="dropdown-menu inner show"><li class="selected active"><a role="option" class="dropdown-item selected active" aria-disabled="false" tabindex="0" aria-selected="true"><span class=" bs-ok-default check-mark"></span><span class="text">Property Type</span></a></li><li><a role="option" class="dropdown-item" aria-disabled="false" tabindex="0" aria-selected="false"><span class=" bs-ok-default check-mark"></span><span class="text">Apartment</span></a></li><li><a role="option" class="dropdown-item" aria-disabled="false" tabindex="0" aria-selected="false"><span class=" bs-ok-default check-mark"></span><span class="text">Bungalow</span></a></li><li><a role="option" class="dropdown-item" aria-disabled="false" tabindex="0" aria-selected="false"><span class=" bs-ok-default check-mark"></span><span class="text">Condo</span></a></li><li><a role="option" class="dropdown-item" aria-disabled="false" tabindex="0" aria-selected="false"><span class=" bs-ok-default check-mark"></span><span class="text">House</span></a></li><li><a role="option" class="dropdown-item" aria-disabled="false" tabindex="0" aria-selected="false"><span class=" bs-ok-default check-mark"></span><span class="text">Land</span></a></li><li><a role="option" class="dropdown-item" aria-disabled="false" tabindex="0" aria-selected="false"><span class=" bs-ok-default check-mark"></span><span class="text">Single Family</span></a></li></ul></div></div></div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="small_dropdown2">
+                          <div id="prncgs2" class="btn dd_btn">
+                            <span>Price</span>
+                            <label for="exampleInputEmail2"><span class="fa fa-angle-down"></span></label>
+                          </div>
+                          <div class="dd_content2">
+                            <div class="pricing_acontent">
+                            <input type="text" class="amount" placeholder="$52,239"> 
+                            <input type="text" class="amount2" placeholder="$985,14">
+                            <div class="slider-range ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content"><div class="ui-slider-range ui-corner-all ui-widget-header" style="left: 2.79875%; width: 57.8438%;"></div><span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 2.79875%;"></span><span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 60.6425%;"></span></div>
+                            </div>
+                          </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="search_option_two">
+                        <div class="candidate_revew_select">
+                          <div class="dropdown bootstrap-select w100 show-tick"><select class="selectpicker w100 show-tick" tabindex="-98">
+                            <option>Bathrooms</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                          </select><button type="button" class="btn dropdown-toggle btn-light" data-toggle="dropdown" role="button" title="Bathrooms"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Bathrooms</div></div> </div></button><div class="dropdown-menu " role="combobox"><div class="inner show" role="listbox" aria-expanded="false" tabindex="-1"><ul class="dropdown-menu inner show"></ul></div></div></div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="search_option_two">
+                        <div class="candidate_revew_select">
+                          <div class="dropdown bootstrap-select w100 show-tick"><select class="selectpicker w100 show-tick" tabindex="-98">
+                            <option>Bedrooms</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                          </select><button type="button" class="btn dropdown-toggle btn-light" data-toggle="dropdown" role="button" title="Bedrooms"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Bedrooms</div></div> </div></button><div class="dropdown-menu " role="combobox"><div class="inner show" role="listbox" aria-expanded="false" tabindex="-1"><ul class="dropdown-menu inner show"></ul></div></div></div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="search_option_two">
+                        <div class="candidate_revew_select">
+                          <div class="dropdown bootstrap-select w100 show-tick"><select class="selectpicker w100 show-tick" tabindex="-98">
+                            <option>Garages</option>
+                            <option>Yes</option>
+                            <option>No</option>
+                            <option>Others</option>
+                          </select><button type="button" class="btn dropdown-toggle btn-light" data-toggle="dropdown" role="button" title="Garages"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Garages</div></div> </div></button><div class="dropdown-menu " role="combobox"><div class="inner show" role="listbox" aria-expanded="false" tabindex="-1"><ul class="dropdown-menu inner show"></ul></div></div></div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="search_option_two">
+                        <div class="candidate_revew_select">
+                          <div class="dropdown bootstrap-select w100 show-tick"><select class="selectpicker w100 show-tick" tabindex="-98">
+                            <option>Year built</option>
+                            <option>2013</option>
+                            <option>2014</option>
+                            <option>2015</option>
+                            <option>2016</option>
+                            <option>2017</option>
+                            <option>2018</option>
+                            <option>2019</option>
+                            <option>2020</option>
+                          </select><button type="button" class="btn dropdown-toggle btn-light" data-toggle="dropdown" role="button" title="Year built"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Year built</div></div> </div></button><div class="dropdown-menu " role="combobox"><div class="inner show" role="listbox" aria-expanded="false" tabindex="-1"><ul class="dropdown-menu inner show"></ul></div></div></div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="min_area list-inline-item">
+                        <div class="form-group">
+                          <input type="text" class="form-control" id="exampleInputName2" placeholder="Min Area">
+                        </div>
+                    </li>
+                    <li class="max_area list-inline-item">
+                        <div class="form-group">
+                          <input type="text" class="form-control" id="exampleInputName3" placeholder="Max Area">
+                        </div>
+                    </li>
+                    <li>
+                        <div id="accordion" class="panel-group">
+                          <div class="panel">
+                              <div class="panel-heading">
+                                <h4 class="panel-title">
+                                  <a href="#panelBodyRating" class="accordion-toggle link" data-toggle="collapse" data-parent="#accordion"><i class="flaticon-more"></i> Advanced features</a>
+                                </h4>
+                              </div>
+                            <div id="panelBodyRating" class="panel-collapse collapse">
+                                <div class="panel-body row">
+                                    <div class="col-lg-12">
+                                          <ul class="ui_kit_checkbox selectable-list float-left fn-400">
+                                            <li>
+                                      <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck16">
+                                        <label class="custom-control-label" for="customCheck16">Air Conditioning</label>
+                                      </div>
+                                            </li>
+                                            <li>
+                                      <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck17">
+                                        <label class="custom-control-label" for="customCheck17">Barbeque</label>
+                                      </div>
+                                            </li>
+                                            <li>
+                                      <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck18">
+                                        <label class="custom-control-label" for="customCheck18">Gym</label>
+                                      </div>
+                                            </li>
+                                            <li>
+                                      <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck19">
+                                        <label class="custom-control-label" for="customCheck19">Microwave</label>
+                                      </div>
+                                            </li>
+                                            <li>
+                                      <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck20">
+                                        <label class="custom-control-label" for="customCheck20">TV Cable</label>
+                                      </div>
+                                            </li>
+                                            <li>
+                                      <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck21">
+                                        <label class="custom-control-label" for="customCheck21">Lawn</label>
+                                      </div>
+                                            </li>
+                                            <li>
+                                      <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck22">
+                                        <label class="custom-control-label" for="customCheck22">Refrigerator</label>
+                                      </div>
+                                            </li>
+                                            <li>
+                                      <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck23">
+                                        <label class="custom-control-label" for="customCheck23">Swimming Pool</label>
+                                      </div>
+                                            </li>
+                                          </ul>
+                                          <ul class="ui_kit_checkbox selectable-list float-right fn-400">
+                                            <li>
+                                      <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck24">
+                                        <label class="custom-control-label" for="customCheck24">WiFi</label>
+                                      </div>
+                                            </li>
+                                            <li>
+                                      <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck25">
+                                        <label class="custom-control-label" for="customCheck25">Sauna</label>
+                                      </div>
+                                            </li>
+                                            <li>
+                                      <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck26">
+                                        <label class="custom-control-label" for="customCheck26">Dryer</label>
+                                      </div>
+                                            </li>
+                                            <li>
+                                      <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck27">
+                                        <label class="custom-control-label" for="customCheck27">Washer</label>
+                                      </div>
+                                            </li>
+                                            <li>
+                                      <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck28">
+                                        <label class="custom-control-label" for="customCheck28">Laundry</label>
+                                      </div>
+                                            </li>
+                                            <li>
+                                      <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck29">
+                                        <label class="custom-control-label" for="customCheck29">Outdoor Shower</label>
+                                      </div>
+                                            </li>
+                                            <li>
+                                      <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck30">
+                                        <label class="custom-control-label" for="customCheck30">Window Coverings</label>
+                                      </div>
+                                            </li>
+                                          </ul>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="search_option_button">
+                          <button type="submit" class="btn btn-block btn-thm">Search</button>
+                      </div>
+                    </li>
+                  </ul>
                 </div>
               </div>
+            </div>
+            <div class="col-md-12 col-lg-8">
+              <div class="row">
+                <div class="grid_list_search_result">
+                  <div class="col-sm-12 col-md-4 col-lg-4 col-xl-5">
+                    <div class="left_area tac-xsd">
+                      <p class="tc-xsd">9 Search results</p>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+               <div class="row">
 
-              <!-- carusel start -->
-              <div class="col-lg-12 mt-5">
-                <div class="owl-one owl-carousel owl-theme">
-                  <!-- Item start -->
+                <div class="col-md-6 col-lg-6">
                   <div type="button" class="item">
                     <div class="card sas">
                       <div class="fp1">
-                        <img src="img/fp1.jpg" class="card-img-top" id="fp" alt="fp1.jpg">
+                        <img src="../img/fp1.jpg" class="card-img-top" id="fp" alt="fp1.jpg">
                       </div>
                       <div class="thmb_cntnt">
                         <ul class="tag">
@@ -177,838 +412,310 @@
                       </div>
                     </div>
                   </div>
-                  <!-- Iteam end -->
-
-                  <!-- Item start -->
-                  <div type="button" class="item">
-                    <div class="card">
-                      <div class="fp1">
-                        <img src="img/fp2.jpg" class="card-img-top" id="fp" alt="fp1.jpg">
-                      </div>
-                      <div class="thmb_cntnt">
-                        <ul class="tag">
-                          <li class="list-inline-item forr">
-                            <a href="#" class="for">For Rent</a>
-                          </li>
-                          <li class="list-inline-item  foee">
-                            <a href="#" class="foe">Featured</a>
-                          </li>
-                        </ul>
-                        <ul class="icon mb0">
-                          <li class="list-inline-item flaticon">
-                            <a href="#">
-                              <span class="flaticon-transfer-1"></span>
-                            </a>
-                          </li>
-                          <li class="list-inline-item flaticon">
-                            <a href="#">
-                              <span class="flaticon-heart"></span>
-                            </a>
-                          </li>
-                        </ul>
-                        <a class="fp_price" href="#">$13,000<small>/mo</small>
-                        </a>
-                      </div>
-                      <div class="card-body">
-                        <div class="details">
-                          <div class="tc_content">
-                            <p class="text-thm">Apartment</p>
-                            <h4 class="nov">Renovated Apartment</h4>
-                            <p class="place">
-                              <span class="flaticon-placeholder place"></span>
-                              1421 San Pedro St, Los Angeles, CA 90015</p>
-                            <ul class="prop_details mb0">
-                              <li class="list-inline-item">
-                                <a href="#" class="li">Beds: 4</a>
-                              </li>
-                              <li class="list-inline-item">
-                                <a href="#" class="li">Baths: 2</a>
-                              </li>
-                              <li class="list-inline-item">
-                                <a href="#" class="li">Sq Ft: 5280</a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Iteam end -->
-
-                  <!-- Item start -->
-                  <div type="button" class="item">
-                    <div class="card">
-                      <div class="fp1">
-                        <img src="img/fp3.jpg" class="card-img-top" id="fp" alt="fp1.jpg">
-                      </div>
-                      <div class="thmb_cntnt">
-                        <ul class="tag">
-                          <li class="list-inline-item forr">
-                            <a href="#" class="for">For Rent</a>
-                          </li>
-                          <li class="list-inline-item  foee">
-                            <a href="#" class="foe">Featured</a>
-                          </li>
-                        </ul>
-                        <ul class="icon mb0">
-                          <li class="list-inline-item flaticon">
-                            <a href="#">
-                              <span class="flaticon-transfer-1"></span>
-                            </a>
-                          </li>
-                          <li class="list-inline-item flaticon">
-                            <a href="#">
-                              <span class="flaticon-heart"></span>
-                            </a>
-                          </li>
-                        </ul>
-                        <a class="fp_price" href="#">$13,000<small>/mo</small>
-                        </a>
-                      </div>
-                      <div class="card-body">
-                        <div class="details">
-                          <div class="tc_content">
-                            <p class="text-thm">Apartment</p>
-                            <h4 class="nov">Renovated Apartment</h4>
-                            <p class="place">
-                              <span class="flaticon-placeholder place"></span>
-                              1421 San Pedro St, Los Angeles, CA 90015</p>
-                            <ul class="prop_details mb0">
-                              <li class="list-inline-item">
-                                <a href="#" class="li">Beds: 4</a>
-                              </li>
-                              <li class="list-inline-item">
-                                <a href="#" class="li">Baths: 2</a>
-                              </li>
-                              <li class="list-inline-item">
-                                <a href="#" class="li">Sq Ft: 5280</a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Iteam end -->
-
-                  <!-- Item start -->
-                  <div type="button" class="item">
-                    <div class="card">
-                      <div class="fp1">
-                        <img src="img/fp1.jpg" class="card-img-top" id="fp" alt="fp1.jpg">
-                      </div>
-                      <div class="thmb_cntnt">
-                        <ul class="tag">
-                          <li class="list-inline-item forr">
-                            <a href="#" class="for">For Rent</a>
-                          </li>
-                          <li class="list-inline-item  foee">
-                            <a href="#" class="foe">Featured</a>
-                          </li>
-                        </ul>
-                        <ul class="icon mb0">
-                          <li class="list-inline-item flaticon">
-                            <a href="#">
-                              <span class="flaticon-transfer-1"></span>
-                            </a>
-                          </li>
-                          <li class="list-inline-item flaticon">
-                            <a href="#">
-                              <span class="flaticon-heart"></span>
-                            </a>
-                          </li>
-                        </ul>
-                        <a class="fp_price" href="#">$13,000<small>/mo</small>
-                        </a>
-                      </div>
-                      <div class="card-body">
-                        <div class="details">
-                          <div class="tc_content">
-                            <p class="text-thm">Apartment</p>
-                            <h4 class="nov">Renovated Apartment</h4>
-                            <p class="place">
-                              <span class="flaticon-placeholder place"></span>
-                              1421 San Pedro St, Los Angeles, CA 90015</p>
-                            <ul class="prop_details mb0">
-                              <li class="list-inline-item">
-                                <a href="#" class="li">Beds: 4</a>
-                              </li>
-                              <li class="list-inline-item">
-                                <a href="#" class="li">Baths: 2</a>
-                              </li>
-                              <li class="list-inline-item">
-                                <a href="#" class="li">Sq Ft: 5280</a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Iteam end -->
-                  
-                  <!-- Item start -->
-                  <div type="button" class="item">
-                    <div class="card">
-                      <div class="fp1">
-                        <img src="img/fp2.jpg" class="card-img-top" id="fp" alt="fp1.jpg">
-                      </div>
-                      <div class="thmb_cntnt">
-                        <ul class="tag">
-                          <li class="list-inline-item forr">
-                            <a href="#" class="for">For Rent</a>
-                          </li>
-                          <li class="list-inline-item  foee">
-                            <a href="#" class="foe">Featured</a>
-                          </li>
-                        </ul>
-                        <ul class="icon mb0">
-                          <li class="list-inline-item flaticon">
-                            <a href="#">
-                              <span class="flaticon-transfer-1"></span>
-                            </a>
-                          </li>
-                          <li class="list-inline-item flaticon">
-                            <a href="#">
-                              <span class="flaticon-heart"></span>
-                            </a>
-                          </li>
-                        </ul>
-                        <a class="fp_price" href="#">$13,000<small>/mo</small>
-                        </a>
-                      </div>
-                      <div class="card-body">
-                        <div class="details">
-                          <div class="tc_content">
-                            <p class="text-thm">Apartment</p>
-                            <h4 class="nov">Renovated Apartment</h4>
-                            <p class="place">
-                              <span class="flaticon-placeholder place"></span>
-                              1421 San Pedro St, Los Angeles, CA 90015</p>
-                            <ul class="prop_details mb0">
-                              <li class="list-inline-item">
-                                <a href="#" class="li">Beds: 4</a>
-                              </li>
-                              <li class="list-inline-item">
-                                <a href="#" class="li">Baths: 2</a>
-                              </li>
-                              <li class="list-inline-item">
-                                <a href="#" class="li">Sq Ft: 5280</a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Iteam end -->
-
-                  <!-- Item start -->
-                  <div type="button" class="item">
-                    <div class="card">
-                      <div class="fp1">
-                        <img src="img/fp3.jpg" class="card-img-top" id="fp" alt="fp1.jpg">
-                      </div>
-                      <div class="thmb_cntnt">
-                        <ul class="tag">
-                          <li class="list-inline-item forr">
-                            <a href="#" class="for">For Rent</a>
-                          </li>
-                          <li class="list-inline-item  foee">
-                            <a href="#" class="foe">Featured</a>
-                          </li>
-                        </ul>
-                        <ul class="icon mb0">
-                          <li class="list-inline-item flaticon">
-                            <a href="#">
-                              <span class="flaticon-transfer-1"></span>
-                            </a>
-                          </li>
-                          <li class="list-inline-item flaticon">
-                            <a href="#">
-                              <span class="flaticon-heart"></span>
-                            </a>
-                          </li>
-                        </ul>
-                        <a class="fp_price" href="#">$13,000<small>/mo</small>
-                        </a>
-                      </div>
-                      <div class="card-body">
-                        <div class="details">
-                          <div class="tc_content">
-                            <p class="text-thm">Apartment</p>
-                            <h4 class="nov">Renovated Apartment</h4>
-                            <p class="place">
-                              <span class="flaticon-placeholder place"></span>
-                              1421 San Pedro St, Los Angeles, CA 90015</p>
-                            <ul class="prop_details mb0">
-                              <li class="list-inline-item">
-                                <a href="#" class="li">Beds: 4</a>
-                              </li>
-                              <li class="list-inline-item">
-                                <a href="#" class="li">Baths: 2</a>
-                              </li>
-                              <li class="list-inline-item">
-                                <a href="#" class="li">Sq Ft: 5280</a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Iteam end -->
-
-                  <!-- Item start -->
-                  <div type="button" class="item">
-                    <div class="card">
-                      <div class="fp1">
-                        <img src="img/fp1.jpg" class="card-img-top" id="fp" alt="fp1.jpg">
-                      </div>
-                      <div class="thmb_cntnt">
-                        <ul class="tag">
-                          <li class="list-inline-item forr">
-                            <a href="#" class="for">For Rent</a>
-                          </li>
-                          <li class="list-inline-item  foee">
-                            <a href="#" class="foe">Featured</a>
-                          </li>
-                        </ul>
-                        <ul class="icon mb0">
-                          <li class="list-inline-item flaticon">
-                            <a href="#">
-                              <span class="flaticon-transfer-1"></span>
-                            </a>
-                          </li>
-                          <li class="list-inline-item flaticon">
-                            <a href="#">
-                              <span class="flaticon-heart"></span>
-                            </a>
-                          </li>
-                        </ul>
-                        <a class="fp_price" href="#">$13,000<small>/mo</small>
-                        </a>
-                      </div>
-                      <div class="card-body">
-                        <div class="details">
-                          <div class="tc_content">
-                            <p class="text-thm">Apartment</p>
-                            <h4 class="nov">Renovated Apartment</h4>
-                            <p class="place">
-                              <span class="flaticon-placeholder place"></span>
-                              1421 San Pedro St, Los Angeles, CA 90015</p>
-                            <ul class="prop_details mb0">
-                              <li class="list-inline-item">
-                                <a href="#" class="li">Beds: 4</a>
-                              </li>
-                              <li class="list-inline-item">
-                                <a href="#" class="li">Baths: 2</a>
-                              </li>
-                              <li class="list-inline-item">
-                                <a href="#" class="li">Sq Ft: 5280</a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Iteam end -->
-
-                  <!-- Item start -->
-                  <div type="button" class="item">
-                    <div class="card">
-                      <div class="fp1">
-                        <img src="img/fp2.jpg" class="card-img-top" id="fp" alt="fp1.jpg">
-                      </div>
-                      <div class="thmb_cntnt">
-                        <ul class="tag">
-                          <li class="list-inline-item forr">
-                            <a href="#" class="for">For Rent</a>
-                          </li>
-                          <li class="list-inline-item  foee">
-                            <a href="#" class="foe">Featured</a>
-                          </li>
-                        </ul>
-                        <ul class="icon mb0">
-                          <li class="list-inline-item flaticon">
-                            <a href="#">
-                              <span class="flaticon-transfer-1"></span>
-                            </a>
-                          </li>
-                          <li class="list-inline-item flaticon">
-                            <a href="#">
-                              <span class="flaticon-heart"></span>
-                            </a>
-                          </li>
-                        </ul>
-                        <a class="fp_price" href="#">$13,000<small>/mo</small>
-                        </a>
-                      </div>
-                      <div class="card-body">
-                        <div class="details">
-                          <div class="tc_content">
-                            <p class="text-thm">Apartment</p>
-                            <h4 class="nov">Renovated Apartment</h4>
-                            <p class="place">
-                              <span class="flaticon-placeholder place"></span>
-                              1421 San Pedro St, Los Angeles, CA 90015</p>
-                            <ul class="prop_details mb0">
-                              <li class="list-inline-item">
-                                <a href="#" class="li">Beds: 4</a>
-                              </li>
-                              <li class="list-inline-item">
-                                <a href="#" class="li">Baths: 2</a>
-                              </li>
-                              <li class="list-inline-item">
-                                <a href="#" class="li">Sq Ft: 5280</a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Iteam end -->
-
-                  <!-- Item start -->
-                  <div type="button" class="item">
-                    <div class="card">
-                      <div class="fp1">
-                        <img src="img/fp3.jpg" class="card-img-top" id="fp" alt="fp1.jpg">
-                      </div>
-                      <div class="thmb_cntnt">
-                        <ul class="tag">
-                          <li class="list-inline-item forr">
-                            <a href="#" class="for">For Rent</a>
-                          </li>
-                          <li class="list-inline-item  foee">
-                            <a href="#" class="foe">Featured</a>
-                          </li>
-                        </ul>
-                        <ul class="icon mb0">
-                          <li class="list-inline-item flaticon">
-                            <a href="#">
-                              <span class="flaticon-transfer-1"></span>
-                            </a>
-                          </li>
-                          <li class="list-inline-item flaticon">
-                            <a href="#">
-                              <span class="flaticon-heart"></span>
-                            </a>
-                          </li>
-                        </ul>
-                        <a class="fp_price" href="#">$13,000<small>/mo</small>
-                        </a>
-                      </div>
-                      <div class="card-body">
-                        <div class="details">
-                          <div class="tc_content">
-                            <p class="text-thm">Apartment</p>
-                            <h4 class="nov">Renovated Apartment</h4>
-                            <p class="place">
-                              <span class="flaticon-placeholder place"></span>
-                              1421 San Pedro St, Los Angeles, CA 90015</p>
-                            <ul class="prop_details mb0">
-                              <li class="list-inline-item">
-                                <a href="#" class="li">Beds: 4</a>
-                              </li>
-                              <li class="list-inline-item">
-                                <a href="#" class="li">Baths: 2</a>
-                              </li>
-                              <li class="list-inline-item">
-                                <a href="#" class="li">Sq Ft: 5280</a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Iteam end -->
                 </div>
-              </div>
-              <!-- carusel end -->
 
+                <div class="col-md-6 col-lg-6">
+                  <div type="button" class="item">
+                    <div class="card sas">
+                      <div class="fp1">
+                        <img src="../img/fp2.jpg" class="card-img-top" id="fp" alt="fp2.jpg">
+                      </div>
+                      <div class="thmb_cntnt">
+                        <ul class="tag">
+                          <li class="list-inline-item forr">
+                            <a href="#" class="for">For Rent</a>
+                          </li>
+                      
+                        </ul>
+                        <ul class="icon mb0">
+                          <li class="list-inline-item flaticon">
+                            <a href="#">
+                              <span class="flaticon-transfer-1"></span>
+                            </a>
+                          </li>
+                          <li class="list-inline-item flaticon">
+                            <a href="#">
+                              <span class="flaticon-heart"></span>
+                            </a>
+                          </li>
+                        </ul>
+                        <a class="fp_price" href="#">$13,000<small>/mo</small>
+                        </a>
+                      </div>
+                      <div class="card-body">
+                        <div class="details">
+                          <div class="tc_content">
+                            <p class="text-thm">Villa</p>
+                            <h4 class="nov">Gorgeous Villa Bay View</h4>
+                            <p class="place">
+                              <span class="flaticon-placeholder place"></span>
+                              1421 San Pedro St, Los Angeles, CA 90015</p>
+                            <ul class="prop_details mb0">
+                              <li class="list-inline-item">
+                                <a href="#" class="li">Beds: 4</a>
+                              </li>
+                              <li class="list-inline-item">
+                                <a href="#" class="li">Baths: 2</a>
+                              </li>
+                              <li class="list-inline-item">
+                                <a href="#" class="li">Sq Ft: 5280</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div type="button" class="item">
+                    <div class="card sas">
+                      <div class="fp1">
+                        <img src="../img/fp3.jpg" class="card-img-top" id="fp" alt="fp3.jpg">
+                      </div>
+                      <div class="thmb_cntnt">
+                        <ul class="tag">
+                          <li class="list-inline-item forr">
+                            <a href="#" class="for">For Rent</a>
+                          </li>
+                      
+                        </ul>
+                        <ul class="icon mb0">
+                          <li class="list-inline-item flaticon">
+                            <a href="#">
+                              <span class="flaticon-transfer-1"></span>
+                            </a>
+                          </li>
+                          <li class="list-inline-item flaticon">
+                            <a href="#">
+                              <span class="flaticon-heart"></span>
+                            </a>
+                          </li>
+                        </ul>
+                        <a class="fp_price" href="#">$13,000<small>/mo</small>
+                        </a>
+                      </div>
+                      <div class="card-body">
+                        <div class="details">
+                          <div class="tc_content">
+                            <p class="text-thm">Single Family Home</p>
+                            <h4 class="nov">Luxury Family Home</h4>
+                            <p class="place">
+                              <span class="flaticon-placeholder place"></span>
+                              1421 San Pedro St, Los Angeles, CA 90015</p>
+                            <ul class="prop_details mb0">
+                              <li class="list-inline-item">
+                                <a href="#" class="li">Beds: 4</a>
+                              </li>
+                              <li class="list-inline-item">
+                                <a href="#" class="li">Baths: 2</a>
+                              </li>
+                              <li class="list-inline-item">
+                                <a href="#" class="li">Sq Ft: 5280</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div type="button" class="item">
+                    <div class="card sas">
+                      <div class="fp1">
+                        <img src="img/fp4.jpg" class="card-img-top" id="fp" alt="fp4.jpg">
+                      </div>
+                      <div class="thmb_cntnt">
+                        <ul class="tag">
+                          <li class="list-inline-item forr">
+                            <a href="#" class="for">For Rent</a>
+                          </li>
+                          <li class="list-inline-item  foee">
+                            <a href="#" class="foe">Featured</a>
+                          </li>
+                      
+                        </ul>
+                        <ul class="icon mb0">
+                          <li class="list-inline-item flaticon">
+                            <a href="#">
+                              <span class="flaticon-transfer-1"></span>
+                            </a>
+                          </li>
+                          <li class="list-inline-item flaticon">
+                            <a href="#">
+                              <span class="flaticon-heart"></span>
+                            </a>
+                          </li>
+                        </ul>
+                        <a class="fp_price" href="#">$13,000<small>/mo</small>
+                        </a>
+                      </div>
+                      <div class="card-body">
+                        <div class="details">
+                          <div class="tc_content">
+                            <p class="text-thm">Apartment</p>
+                            <h4 class="nov">Luxury Family Home</h4>
+                            <p class="place">
+                              <span class="flaticon-placeholder place"></span>
+                              1421 San Pedro St, Los Angeles, CA 90015</p>
+                            <ul class="prop_details mb0">
+                              <li class="list-inline-item">
+                                <a href="#" class="li">Beds: 4</a>
+                              </li>
+                              <li class="list-inline-item">
+                                <a href="#" class="li">Baths: 2</a>
+                              </li>
+                              <li class="list-inline-item">
+                                <a href="#" class="li">Sq Ft: 5280</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div type="button" class="item">
+                    <div class="card sas">
+                      <div class="fp1">
+                        <img src="img/fp15.jpg" class="card-img-top" id="fp" alt="fp15.jpg">
+                      </div>
+                      <div class="thmb_cntnt">
+                        <ul class="tag">
+                          <li class="list-inline-item forr">
+                            <a href="#" class="for">For Rent</a>
+                          </li>
+                          <li class="list-inline-item  foee">
+                            <a href="#" class="foe">Featured</a>
+                          </li>
+                      
+                        </ul>
+                        <ul class="icon mb0">
+                          <li class="list-inline-item flaticon">
+                            <a href="#">
+                              <span class="flaticon-transfer-1"></span>
+                            </a>
+                          </li>
+                          <li class="list-inline-item flaticon">
+                            <a href="#">
+                              <span class="flaticon-heart"></span>
+                            </a>
+                          </li>
+                        </ul>
+                        <a class="fp_price" href="#">$13,000<small>/mo</small>
+                        </a>
+                      </div>
+                      <div class="card-body">
+                        <div class="details">
+                          <div class="tc_content">
+                            <p class="text-thm">Apartment</p>
+                            <h4 class="nov">Renovated Apartment</h4>
+                            <p class="place">
+                              <span class="flaticon-placeholder place"></span>
+                              1421 San Pedro St, Los Angeles, CA 90015</p>
+                            <ul class="prop_details mb0">
+                              <li class="list-inline-item">
+                                <a href="#" class="li">Beds: 4</a>
+                              </li>
+                              <li class="list-inline-item">
+                                <a href="#" class="li">Baths: 2</a>
+                              </li>
+                              <li class="list-inline-item">
+                                <a href="#" class="li">Sq Ft: 5280</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-6">
+                  <div type="button" class="item">
+                    <div class="card sas">
+                      <div class="fp1">
+                        <img src="img/fp16.jpg" class="card-img-top" id="fp" alt="fp16.jpg">
+                      </div>
+                      <div class="thmb_cntnt">
+                        <ul class="tag">
+                          <li class="list-inline-item forr">
+                            <a href="#" class="for">For Rent</a>
+                          </li>
+                      
+                        </ul>
+                        <ul class="icon mb0">
+                          <li class="list-inline-item flaticon">
+                            <a href="#">
+                              <span class="flaticon-transfer-1"></span>
+                            </a>
+                          </li>
+                          <li class="list-inline-item flaticon">
+                            <a href="#">
+                              <span class="flaticon-heart"></span>
+                            </a>
+                          </li>
+                        </ul>
+                        <a class="fp_price" href="#">$13,000<small>/mo</small>
+                        </a>
+                      </div>
+                      <div class="card-body">
+                        <div class="details">
+                          <div class="tc_content">
+                            <p class="text-thm">Villa</p>
+                            <h4 class="nov">Gorgeous Villa Bay View</h4>
+                            <p class="place">
+                              <span class="flaticon-placeholder place"></span>
+                              1421 San Pedro St, Los Angeles, CA 90015</p>
+                            <ul class="prop_details mb0">
+                              <li class="list-inline-item">
+                                <a href="#" class="li">Beds: 4</a>
+                              </li>
+                              <li class="list-inline-item">
+                                <a href="#" class="li">Baths: 2</a>
+                              </li>
+                              <li class="list-inline-item">
+                                <a href="#" class="li">Sq Ft: 5280</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12 mt20">
+                  <div class="mbp_pagination">
+                    <ul class="page_navigation">
+                        <li class="page-item disabled">
+                          <a class="page-link" href="#" tabindex="-1" aria-disabled="true"> <span class="flaticon-left-arrow"></span> Prev</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item active" aria-current="page">
+                          <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">...</a></li>
+                        <li class="page-item"><a class="page-link" href="#">29</a></li>
+                        <li class="page-item">
+                          <a class="page-link" href="#"><span class="flaticon-right-arrow"></span></a>
+                        </li>
+                    </ul>
+                  </div>
+                </div>  
+
+              </div> 
             </div>
           </div>
-        </section>
-        <!-- featured end -->
-
-        <!-- Cities start -->
-        <section class="cities">
-          <div class="container mt-5">
-
-            <div class="row">
-              <div class="col-lg-6 offset-lg-3">
-                <div class="main-title text-center">
-                  <h2 id="find">Find Properties in These Cities</h2>
-                  <p id="lor">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-              </div>
-
-            </div>
-
-            <!-- citi foto start -->
-            <div class="row mt-5 city">
-
-              <div type="button" class="col-lg-4 col-xl-4">
-                <div class="thumb cil">
-                  <img class="img-fluid w100" src="img/pc1.jpg" alt="pc1.jpg">
-                </div>
-                <div class="detail">
-                  <div class="tt">
-                    <h4 id="miami">Miami</h4>
-                    <p id="prop">24 Properties</p>
-                  </div>
-                </div>
-              </div>
-
-
-              <div type="button" class="col-lg-8 col-xl-8">
-                <div class="thumb cil">
-                  <img class="img-fluid w100" src="img/pc2.jpg" alt="pc2.jpg">
-                </div>
-                <div class="detail">
-                  <div class="tt">
-                    <h4 id="miami">Los Angeles</h4>
-                    <p id="prop">18 Properties</p>
-                  </div>
-                </div>
-              </div>
-
-              <div type="button" class="col-lg-8 col-xl-8">
-                <div class="thumb cil">
-                  <img class="img-fluid w100" src="img/pc3.jpg" alt="pc3.jpg">
-                </div>
-                <div class="detail">
-                  <div class="tt">
-                    <h4 id="miami">New York</h4>
-                    <p id="prop">89 Properties</p>
-                  </div>
-                </div>
-              </div>
-
-              <div type="button" class="col-lg-4 col-xl-4">
-                <div class="thumb cil">
-                  <img class="img-fluid w100" src="img/pc4.jpg" alt="pc4.jpg">
-                </div>
-                <div class="detail">
-                  <div class="tt">
-                    <h4 id="miami">Florida</h4>
-                    <p id="prop">47 Properties</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- citi foto end -->
-
-          </div>
-        </section>
-        <!-- Cities end -->
-
-        <!-- Why Choose Us start -->
-        <section class="choose_us">
-          <div class="container ">
-            <div class="row">
-              <div class="col-lg-6 offset-lg-3 mt-5">
-                <div class="main-title text-center">
-                  <h2 id="why">Why Choose Us</h2>
-                  <p id="we">We provide full service at every step.</p>
-                </div>
-              </div>
-            </div>
-            <div class="row ">
-              <div class="col-md-6 col-lg-4 col-xl-4 ">
-                <div type="button" class="why_chose_us mt-5">
-                  <div class="icon">
-                    <span class="flaticon-high-five"></span>
-                  </div>
-                  <div class="details">
-                    <h4>Trusted By Thousands</h4>
-                    <p>Aliquam dictum elit vitae mauris facilisis at dictum urna dignissim donec vel lectus vel felis.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-4 col-xl-4">
-                <div type="button" class="why_chose_us mt-5">
-                  <div class="icon">
-                    <span class="flaticon-home-1"></span>
-                  </div>
-                  <div class="details">
-                    <h4>Wide Renge Of Properties</h4>
-                    <p>Aliquam dictum elit vitae mauris facilisis at dictum urna dignissim donec vel lectus vel felis.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-4 col-xl-4">
-                <div type="button" class="why_chose_us mt-5">
-                  <div class="icon">
-                    <span class="flaticon-profit"></span>
-                  </div>
-                  <div class="details">
-                    <h4>Financing Made Easy</h4>
-                    <p>Aliquam dictum elit vitae mauris facilisis at dictum urna dignissim donec vel lectus vel felis.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- Why Choose Us stop -->
-
-        <!-- Testimonials start -->
-        <section id="our-testimonials" class="our-testimo">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 offset-lg-3">
-                <div class="main-title text-center mt-5 ">
-                  <h2 class="color-white testi">Testimonials</h2>
-                  <p class="color-white here">Here could be a nice sub title</p>
-                </div>
-              </div>
-
-              <!-- carusel start -->
-              <div class="col-lg-6 offset-lg-3">
-
-            
-                <div id="carousel-example-multi" class="carousel slide carousel-multi-item v-2" data-ride="carousel">
-
-                  <!-- Indicators -->
-                  <ol class="carousel-indicators">
-                    <li data-target="#carousel-example-multi" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-example-multi" data-slide-to="1"></li>
-                    <li data-target="#carousel-example-multi" data-slide-to="2"></li>
-                    <li data-target="#carousel-example-multi" data-slide-to="3"></li>
-                  </ol>
-                  <!--/.Indicators-->
-                  
-
-                  <div class="carousel-inner v-2 car" role="listbox">
-
-                    <!-- item start -->
-                    <div class="carousel-item active ">
-                      <div class="col-12 col-md-4">
-                        <div class="card arm mb-2">
-                          <img class="card-img-top lala" src="img/1.jpg" alt="Card image cap">
-                          <div class="card-body sil">
-                            <h4 class="august">Augusta Silva</h4>
-                            <p class="mt24">Sales Manager</p>
-                            <p class="mt25">Aliquam dictum elit vitae mauris facilisis at dictum urna dignissim donec vel lectus vel felis.</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- item end -->
-
-
-                    <!-- item start -->
-                    <div class="carousel-item">
-                     <div class="row">
-                      <div class="col-12 col-md-4">
-                        <div class="card arm mb-2" >
-                           <img class="card-img-top lala" src="img/1.jpg" alt="Card image cap">
-                           <div class="card-body sil">
-                             <h4 class="august">Augusta Silva</h4>
-                             <p class="mt24">Sales Manager</p>
-                             <p class="mt25">Aliquam dictum elit vitae mauris facilisis at dictum urna dignissim donec vel lectus vel felis.</p>
-                           </div>
-                        </div>
-                      </div>
-                     </div>
-                    </div>
-                    <!-- item end -->
-
-                    <!-- item start -->
-                    <div class="carousel-item">
-                      <div class="row">
-                       <div class="col-12 col-md-4">
-                         <div class="card arm mb-2" >
-                            <img class="card-img-top lala" src="img/1.jpg" alt="Card image cap">
-                            <div class="card-body sil">
-                              <h4 class="august">Augusta Silva</h4>
-                              <p class="mt24">Sales Manager</p>
-                              <p class="mt25">Aliquam dictum elit vitae mauris facilisis at dictum urna dignissim donec vel lectus vel felis.</p>
-                            </div>
-                         </div>
-                       </div>
-                      </div>
-                     </div>
-                     <!-- item end -->
-
-                     <!-- item start -->
-                    <div class="carousel-item">
-                      <div class="row">
-                       <div class="col-12 col-md-4">
-                         <div class="card arm mb-2" >
-                            <img class="card-img-top lala" src="img/1.jpg" alt="Card image cap">
-                            <div class="card-body sil">
-                              <h4 class="august">Augusta Silva</h4>
-                              <p class="mt24">Sales Manager</p>
-                              <p class="mt25">Aliquam dictum elit vitae mauris facilisis at dictum urna dignissim donec vel lectus vel felis.</p>
-                            </div>
-                         </div>
-                       </div>
-                      </div>
-                     </div>
-                     <!-- item end -->
-
-                  </div>
-                </div>
-                
-              
-              <!-- carusel end -->
-            </div>
-            
-          </div>
-        </section>
-        <!-- Testimonials end -->
-
-        <!-- Articles start -->
-        <section class="our-blog bgc-f7 pb30">
-          <div class="container">
-
-            <div class="row">
-              <div class="col-lg-6 offset-lg-3 mt-5">
-                <div class="main-title text-center">
-                  <h2 id="arti">Articles &amp; Tips</h2>
-                  <p id="dol">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-              </div>
-            </div>
-
-            <!-- card start -->
-            <div class="row">
-              <!-- item start -->
-              <div class="col-md-6 col-lg-4 col-xl-4 mt-5">
-                <div type="button" class="item">
-              <div class="card">
-                <div class="fp1">
-                  <img src="img/bh1.jpg" class="card-img-top" id="bh" alt="bh1.jpg">
-                </div>
-                <div class="card-body">
-                  <div class="details">
-                    <div class="tc_content mt-5">
-                      <p class="text-thm">Business</p>
-                      <h4 class="apar">Skills That You Can Learn In The Real Estate Market</h4>
-                    </div>
-                  </div>
-                </div>
-               </div>
-              </div>
-              </div>
-              <!-- item end -->
-
-              <!-- item start -->
-              <div class="col-md-6 col-lg-4 col-xl-4 mt-5">
-                <div type="button" class="item">
-              <div class="card">
-                <div class="fp1">
-                  <img src="img/bh2.jpg" class="card-img-top" id="bh" alt="bh2.jpg">
-                </div>
-                <div class="card-body">
-                  <div class="details">
-                    <div class="tc_content mt-5">
-                      <p class="text-thm">Business</p>
-                      <h4 class="apar bir">Bedroom Colors You’ll Never Regret</h4>
-                    </div>
-                  </div>
-                </div>
-               </div>
-              </div>
-              </div>
-              <!-- item end -->
-
-              <!-- item start -->
-              <div class="col-md-6 col-lg-4 col-xl-4 mt-5">
-                <div type="button" class="item">
-              <div class="card">
-                <div class="fp1">
-                  <img src="img/bh3.jpg" class="card-img-top" id="bh" alt="bh3.jpg">
-                </div>
-                <div class="card-body">
-                  <div class="details">
-                    <div class="tc_content mt-5">
-                      <p class="text-thm">Business</p>
-                      <h4 class="apar">5 Essential Steps for Buying an Investment</h4>
-                    </div>
-                  </div>
-                </div>
-               </div>
-              </div>
-              </div>
-              <!-- item end -->
-            </div>
-            <!-- card end -->
-            
-            
-            
-            
-          </div>
-        </section>
-        <!-- Articles end -->
-
-        <!-- Partners start -->
-        <section id="our-partners" class="our-partners">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-6 offset-lg-3 mt-5">
-                <div class="main-title text-center">
-                  <h2 id="arti">Our Partners</h2>
-                  <p id="dol">We only work with the best companies around the globe</p>
-                </div>
-              </div>
-            </div>
-            <div class="row mt-5 ico" >
-              <div class="col-sm-6 col-md-4 col-lg">
-                <div type="button" class="our_partner">
-                  <img class="img-fluid" src="img/part1.png" alt="part1.png">
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg">
-                <div type="button" class="our_partner">
-                  <img class="img-fluid" src="img/part2.png" alt="part2.png">
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg">
-                <div type="button" class="our_partner">
-                  <img class="img-fluid" src="img/part3.png" alt="part3.png">
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg">
-                <div type="button" class="our_partner">
-                  <img class="img-fluid" src="img/part4.png" alt="part4.png">
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg">
-                <div type="button" class="our_partner">
-                  <img class="img-fluid" src="img/part5.png" alt="part5.png">
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- Partners end -->
-
-        <!-- Become start -->
-        <section class="start-partners bgc-thm pt50 pb50">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8">
-                <div class="start_partner tac-smd">
-                  <h2 id="bec">Become a Real Estate Agent</h2>
-                  <p id="onl">We only work with the best companies around the globe</p>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="parner_reg_btn text-right tac-smd">
-                  <button type="button" class="btn btn-light">Register Now</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- Become end -->
+        </div>
+      </section>
+       <!-- section end -->
 
       </main>
       <!-- main stop -->
@@ -1136,7 +843,7 @@
                 <div class="row" id="cd-login" role="tabpanel" aria-labelledby="home-tab">
                   <div class="col-lg-6 col-xl-6 mt-4" class="item-tall">
 					  		  	<div class="login_thumb">
-					  			  	<img class="myImg-fluid w100" src="img/login.jpg" alt="login.jpg">
+					  			  	<img class="myImg-fluid w100" src="../img/login.jpg" alt="login.jpg">
 					  			  </div>
                   </div>
 
@@ -1198,7 +905,7 @@
                 <div class="row" id="cd-login" role="tabpanel" aria-labelledby="home-tab">
                   <div class="col-lg-6 col-xl-6 mt-4" class="item-tall">
 					  		  	<div class="login_thumb">
-					  			  	<img class="myImg-fluid w100" src="img/regstr.jpg" alt="regstr.jpg">
+					  			  	<img class="myImg-fluid w100" src="../img/regstr.jpg" alt="regstr.jpg">
 					  			  </div>
                   </div>
 
@@ -1286,15 +993,15 @@
       
 
      
-      <script src="js/plugins/jQuery(1.11.0).js"></script>
+      <script src="../js/plugins/jQuery(1.11.0).js"></script>
       <!-- JS, Popper.js, and jQuery -->
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
-      <script src="js/plugins/owl.carousel.min.js"></script>
-      <script src="js/plugins/yashillashdir.js"></script>
-      <script src="js/main.js"></script> 
+      <script src="../js/plugins/owl.carousel.min.js"></script>
+      <script src="../js/plugins/yashillashdir.js"></script>
+      <script src="../js/main.js"></script> 
     </body>
   </body>
 </html>

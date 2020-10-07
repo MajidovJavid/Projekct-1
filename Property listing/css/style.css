@@ -1,0 +1,495 @@
+/*................Navbar icon................ */
+
+.findHouse {
+  color: black !important;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 10px;
+  padding-left: 15px;
+  text-transform: capitalize;
+  vertical-align: middle;
+}
+
+
+/*................Navbar menu................ */
+
+.nava {
+  color: black !important;
+  display: inline-block;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 15px;
+  padding-left: 20px !important;
+  text-transform: capitalize;
+  vertical-align: middle;
+}
+
+.navbar {
+  width: 98%;
+  margin: auto;
+}
+
+.flaticon-user {
+  color: black !important;
+  margin: 0 5px 0 0;
+}
+
+
+.fixed {
+  position: fixed;
+  width: 100%;
+  background-color: white !important;
+  top: 0;
+  transition: 0.2s;
+  left: 0;
+  z-index: 99999;
+}
+
+.fixed .loro {
+  color: black !important;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.fixed .flaticon-user {
+  color: black !important;
+  margin: 0 5px 0 0;
+}
+
+/* ............................................
+....................Main......................
+............................................ */
+
+.main {
+  height: 1600px;
+  background-color: #F7F7F7FF !important;
+  padding: 60px 0;
+  position: relative;
+  display: block;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+/* ....................Text....................... */
+
+.breadcrumb_content.style2 {
+  margin-bottom: 55px;
+}
+
+.breadcrumb_content {
+  margin-left: 50px;
+}
+
+.breadcrumb_content.style2 ol.breadcrumb {
+  background-color: transparent;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  border-radius: .25rem;
+}
+
+.home {
+  color: #555555 !important;
+  text-decoration: none;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  display: inline-block;
+  padding-right: .5rem !important;
+  color: #6c757d !important;
+  content: "/";
+}
+
+.breadcrumb-item+.breadcrumb-item {
+  padding-left: .5rem !important;
+}
+
+.tet-thm {
+  color: #ff5a5f !important;
+}
+
+.breadcrumb_title {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #484848 !important;
+}
+
+/* ............grid_list_search_result................. */
+
+.grid_list_search_result {
+  background-color: #ffffff !important;
+  border: 1px solid rgb(235, 235, 235) !important;
+  border-radius: 8px;
+  display: flex;
+  height: 62px;
+  margin: 0 auto 30px;
+  padding: 0 15px;
+  position: relative;
+  width: 96%;
+}
+
+.tc-xsd {
+  margin-bottom: 0;
+  margin-top: 20px;
+  font-size: 13px;
+  color: #484848 !important;
+  font-weight: 400;
+}
+
+.text-right {
+  text-align: right!important;
+}
+
+.bbb {
+  margin-right: 5px !important;
+  position: relative !important;
+  margin-top: -40px !important;
+}
+
+.stts {
+  font-size: 13px !important;
+  color: #484848 !important;
+}
+
+.sidebar_listing_list {
+  border: 1px solid rgb(235, 235, 235) !important;
+  border-radius: 8px;
+  background-color: #ffffff !important;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+
+/*................Card................ */
+
+
+.sas {
+  background-color: #ffffff !important;
+  border: 1px solid #ebebeb !important;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.fp1 {
+  background-color: #1d293e !important;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+#fp {
+  opacity: .6 !important;
+  object-fit: cover;
+}
+
+.forr {
+  background-color: rgb(62, 76, 102) !important;
+  border-radius: 3px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  width: 75px;
+  margin-right: 0.5rem !important;
+}
+
+.for {
+  font-size: 14px;
+  color: white !important;
+  line-height: 1.2;
+  text-decoration: none !important;
+}
+
+.foee {
+  background-color: rgb(238, 4, 4) !important;
+  border-radius: 3px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  width: 75px;
+}
+
+.foe {
+  font-size: 14px;
+  color: white !important;
+  line-height: 1.2;
+  text-decoration: none !important;
+}
+
+.tag {
+  margin-top: -200px;
+  position: relative;
+}
+
+.icon {
+  position: relative;
+  right: 0px;
+  margin-top: 120px !important;
+  margin-left: 212px !important;
+}
+
+.flaticon {
+  border-radius: 8px;
+  background-color: rgb(15, 21, 31) !important;
+  height: 35px;
+  line-height: 35px;
+  margin-right: 5px !important;
+  opacity: 0.502;
+  text-align: center;
+  width: 35px;
+
+}
+
+.flaticon-transfer-1 {
+  color: #ffffff !important;
+}
+
+.flaticon-heart {
+  color: #ffffff !important;
+}
+
+.fp_price {
+  bottom: 46px;
+  font-size: 22px;
+  color: #ffffff !important;
+  font-weight: bold;
+  left: 29px;
+  line-height: 1.2;
+  position: relative;
+  text-decoration: none !important;
+}
+
+.text-thm {
+  font-size: 14px;
+  color: #484848;
+  line-height: 1.2;
+  color: #ff5a5f !important;
+  margin: -38px 0 10px !important;
+}
+
+.nov {
+  font-size: 18px;
+  color: #484848;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.place {
+  font-size: 14px !important;
+  color: #484848 !important;
+  line-height: 1.2 !important;
+  margin: 0 0 2px !important;
+}
+
+.li {
+  font-size: 14px !important;
+  color: #484848 !important;
+  line-height: 1.2 !important;
+  position: relative;
+  left: -38px !important;
+}
+
+.card:hover {
+  box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.247);
+}
+
+/* ................mbp_pagination................*/
+
+.mbp_pagination {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.mbp_pagination ul.page_navigation {
+  height: 70px;
+  margin-bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+.mbp_pagination ul.page_navigation li.page-item {
+  display: inline-block;
+  margin-right: 6px;
+  margin-top: 12px;
+}
+
+.mbp_pagination ul.page_navigation li .page-link {
+  background-color: #ffffff !important;
+  border: 1px solid #ebebeb !important;
+  border-radius: 50%;
+  font-size: 14px;
+  font-family: "Nunito";
+  color: #777777 !important;
+  line-height: 1.2;
+  height: 45px;
+  line-height: 30px;
+  overflow: hidden;
+  text-align: center;
+  width: 45px;
+}
+
+.mbp_pagination ul.page_navigation li.active .page-link {
+  background-color: #ff5a5f !important;
+  color: #ffffff !important;
+}
+
+
+
+
+
+/* ............................................
+....................Arrow......................
+............................................ */
+
+#button {
+  border-radius: 50%;
+  background-color: #141e2f;
+  bottom: 15px;
+  color: #8a99b3 !important;
+  display: none;
+  font-size: 14px;
+  height: 45px;
+  line-height: 40px;
+  padding: 3px 10px;
+  position: fixed;
+  right: 20px;
+  text-align: center;
+  width: 45px;
+  z-index: 99999;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none !important;
+}
+
+/* ............................................
+....................Footer 1...................
+............................................ */
+
+.footer_1 {
+  height: 350px !important;
+  background-color: #24324AFF !important;
+  padding: 80px 0 70px;
+}
+
+/* ....................Text....................... */
+
+
+
+.quick {
+  color: #ffffff !important;
+  font-weight: bold;
+  margin-bottom: 25px;
+  font-size: 15px;
+}
+
+.qui {
+  font-size: 13px;
+  color: #8a99b3 !important;
+  line-height: 1.8;
+}
+
+.a {
+  font-size: 14px;
+  color: #8a99b3 !important;
+  line-height: 2.429;
+  transition: all 0.3s ease 0s;
+  text-decoration: none !important;
+}
+
+.a:hover {
+  margin-left: 7px;
+  color: white !important;
+}
+
+.twit {
+  color: #8a99b3 !important;
+  font-size: 13px;
+  font-family: "FontAwesome";
+  line-height: 1.2;
+  transition: all 0.3s ease 0s;
+}
+
+.twit:hover {
+  color: white !important;
+}
+
+.mb30 {
+  margin-left: -40px;
+}
+
+
+.footer_qlink_widget {
+  padding-left: 70px;
+}
+
+.twi {
+  margin-right: 1rem !important;
+}
+
+/* ................Your email................... */
+
+.form-control {
+  background-color: #354765 !important;
+  border: 1px solid #354765 !important;
+  border-radius: 25px;
+  color: #ffffff !important;
+  height: 45px;
+  padding-left: 30px;
+  width: 195px;
+}
+
+.my {
+  background-color: #354765;
+  border: 1px solid #354765;
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+}
+
+/* ............................................
+....................Footer 2...................
+............................................ */
+
+.footer_2 {
+  height: 100px !important;
+  background-color: #1D293EFF !important;
+}
+
+/* ....................Text....................... */
+
+.footer_2_menu {
+  padding: 30px 0 0;
+}
+
+.blog {
+  margin-right: 0 !important;
+  padding-right: 25px;
+  vertical-align: middle;
+}
+
+#list-inline-item {
+  font-size: 14px;
+  color: #8a99b3 !important;
+  line-height: 2.143;
+  text-decoration: none;
+}
+
+#list-inline-item:hover {
+  color: white !important;
+}
+
+#made {
+  font-size: 14px;
+  color: #8a99b3 !important;
+  line-height: 2.143;
+  margin-right: 50px;
+}
