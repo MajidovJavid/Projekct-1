@@ -52,8 +52,8 @@
 }
 
 .navbar {
- width: 98%;
- margin: auto;
+  width: 98%;
+  margin: auto;
 }
 
 .flaticon-user {
@@ -65,14 +65,14 @@
 .fixed {
   position: fixed;
   width: 100%;
-  background-color: white!important;
+  background-color: white !important;
   top: 0;
   transition: 0.2s;
   left: 0;
   z-index: 99999;
 }
 
-.fixed  .loro {
+.fixed .loro {
   color: black !important;
   font-family: 'Montserrat', sans-serif;
 }
@@ -84,18 +84,18 @@
 
 /*................Text................ */
 
-.home-text{
+.home-text {
   margin: 0 auto;
   left: 0;
   position: absolute;
   right: 0;
-  text-align: center!important;
+  text-align: center !important;
 }
 
 .home-text {
   margin-top: 320px;
 }
-  
+
 
 
 .fz55 {
@@ -118,7 +118,7 @@
 
 /*................Button................ */
 
-#pills-home-tab  {
+#pills-home-tab {
   background-color: #FF5A5FFF !important;
   border-color: #FF5A5FFF !important;
   border-radius: 8px;
@@ -145,10 +145,11 @@
 }
 
 
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-  color: #000!important;
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  color: #000 !important;
   background-color: white !important;
-  border-color:white !important;
+  border-color: white !important;
   border-radius: 8px;
 }
 
@@ -171,7 +172,7 @@
 }
 
 .featured {
-height: 620px;
+  height: 620px;
 }
 
 .offset-lg-3 {
@@ -182,7 +183,7 @@ height: 620px;
 
 .feat {
   color: #484848 !important;
-  
+
   line-height: 1.2;
   margin-bottom: 10px;
   margin-top: 0;
@@ -197,12 +198,13 @@ height: 620px;
 
 /*................Featured Carusel................ */
 
-.owl-carousel::after, ::before {
+.owl-carousel::after,
+::before {
   box-sizing: border-box !important;
 }
 
 .owl-item {
-  width: 330px !important; 
+  width: 330px !important;
 }
 
 .owl-nav {
@@ -219,7 +221,7 @@ height: 620px;
   transition: all 0.3s ease;
 }
 
-.fp1{
+.fp1 {
   background-color: #1d293e !important;
   border-radius: 8px;
   display: flex;
@@ -377,14 +379,15 @@ height: 620px;
 
 /*................citi foto................ */
 
-.col-lg-4, .col-lg-8 {
+.col-lg-4,
+.col-lg-8 {
   margin: 0 0 30px;
   position: relative;
 }
 
 
 .detail {
-  background: linear-gradient(180deg, rgba(255,255,255,0.01) 0%, rgba(29,41,62,1) 100%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.01) 0%, rgba(29, 41, 62, 1) 100%);
   border-radius: 0px 0px 10px 10px;
   bottom: 0;
   height: 230px;
@@ -418,8 +421,8 @@ height: 620px;
 }
 
 .img-fluid:hover {
-transform: rotate(-2deg) scale(1.1);
-transition: all 0.6s ease !important;
+  transform: rotate(-2deg) scale(1.1);
+  transition: all 0.6s ease !important;
 }
 
 
@@ -453,10 +456,10 @@ transition: all 0.6s ease !important;
 
 
 #we {
- font-size: 16px;
- color: rgb(119, 119, 119) !important;
- line-height: 1.2;
- margin-bottom: 0;
+  font-size: 16px;
+  color: rgb(119, 119, 119) !important;
+  line-height: 1.2;
+  margin-bottom: 0;
 }
 
 
@@ -526,6 +529,7 @@ transition: all 0.6s ease !important;
   line-height: 1.714;
   color: #484848 !important;
 }
+
 /* ............................................
 ................Testimonials................
 ............................................ */
@@ -533,9 +537,9 @@ transition: all 0.6s ease !important;
 .our-testimo {
   background-image: url('../img/2.jpg');
   background-size: cover;
-  background-position:  right right ;
+  background-position: right right;
   height: 450px;
-  
+
 }
 
 /* ....................Text....................... */
@@ -554,14 +558,14 @@ transition: all 0.6s ease !important;
 .here {
   font-size: 16px !important;
   color: #ffffff !important;
-  line-height: 1.2 !important ;
+  line-height: 1.2 !important;
   margin-bottom: 0 !important;
 }
 
 /*................Testimonials Carusel................ */
 
 
-.lala{
+.lala {
   border-radius: 50%;
   background-size: cover;
   background-position: right right;
@@ -571,8 +575,6 @@ transition: all 0.6s ease !important;
   border-style: solid !important;
   border-color: rgba(97, 95, 95, 0.5) !important;
   border-width: 15px;
-  /* display: flex;
-  justify-self: center; */
   margin: -60px 0 0 125px !important;
 }
 
@@ -586,13 +588,14 @@ transition: all 0.6s ease !important;
 .arm:hover {
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0) !important;
 }
+
 .card-img-top {
   opacity: 1 !important;
   object-fit: cover;
 }
 
 .mb-2 {
-margin-bottom: -60px !important;
+  margin-bottom: -60px !important;
 }
 
 .sil {
@@ -604,10 +607,10 @@ margin-bottom: -60px !important;
   margin: 0 0 39px -2px;
   font-size: 17px;
   line-height: 1.2;
-  
+
 }
 
-.mt24{
+.mt24 {
   color: #ffffff !important;
   margin: -35px 0 40px 6px;
   font-size: 13px;
@@ -635,7 +638,7 @@ margin-bottom: -60px !important;
 
 /* ....................Text....................... */
 
-#arti{
+#arti {
   color: #484848 !important;
   line-height: 1.2;
   margin-bottom: 10px;
@@ -660,7 +663,7 @@ margin-bottom: -60px !important;
   line-height: 1.2;
 }
 
-.bir{
+.bir {
   margin: 0 35px 8px 0;
 }
 
@@ -689,7 +692,7 @@ margin-bottom: -60px !important;
 
 
 .start-partners {
-  background-color:#FF5A5FFF !important;
+  background-color: #FF5A5FFF !important;
   height: 150px;
 }
 
@@ -702,7 +705,7 @@ margin-bottom: -60px !important;
   margin: 0 0 0 50px !important;
 }
 
-#onl{
+#onl {
   color: #ffffff !important;
   margin-bottom: 0;
   line-height: 1.2;
@@ -725,7 +728,7 @@ margin-bottom: -60px !important;
   line-height: 50px;
   width: 170px;
   transition: all 0.3s ease;
-  color:white !important;
+  color: white !important;
   margin: 50px 50px 0 0 !important;
 }
 
@@ -766,10 +769,83 @@ margin-bottom: -60px !important;
 .footer_1 {
   height: 350px !important;
   background-color: #24324AFF !important;
+  padding: 80px 0 70px;
 }
 
 /* ....................Text....................... */
 
+
+
+.quick {
+  color: #ffffff !important;
+  font-weight: bold;
+  margin-bottom: 25px;
+  font-size: 15px;
+}
+
+.qui {
+  font-size: 13px;
+  color: #8a99b3 !important;
+  line-height: 1.8;
+}
+
+.a {
+  font-size: 14px;
+  color: #8a99b3 !important;
+  line-height: 2.429;
+  transition: all 0.3s ease 0s;
+  text-decoration: none !important;
+}
+
+.a:hover {
+  margin-left: 7px;
+  color: white !important;
+}
+
+.twit {
+  color: #8a99b3 !important;
+  font-size: 13px;
+  font-family: "FontAwesome";
+  line-height: 1.2;
+  transition: all 0.3s ease 0s;
+}
+
+.twit:hover {
+  color: white !important;
+}
+
+.mb30 {
+  margin-left: -40px;
+}
+
+
+.footer_qlink_widget {
+  padding-left: 70px;
+}
+
+.twi {
+  margin-right: 1rem !important;
+}
+
+/* ................Your email................... */
+
+.form-control {
+  background-color: #354765 !important;
+  border: 1px solid #354765 !important;
+  border-radius: 25px;
+  color: #ffffff !important;
+  height: 45px;
+  padding-left: 30px;
+  width: 195px;
+}
+
+.my {
+  background-color: #354765;
+  border: 1px solid #354765;
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+}
 
 /* ............................................
 ....................Footer 2...................
@@ -782,11 +858,11 @@ margin-bottom: -60px !important;
 
 /* ....................Text....................... */
 
-.footer_2_menu{
- padding: 30px 0 0;
+.footer_2_menu {
+  padding: 30px 0 0;
 }
 
-.list-inline-item {
+.blog {
   margin-right: 0 !important;
   padding-right: 25px;
   vertical-align: middle;
@@ -804,7 +880,7 @@ margin-bottom: -60px !important;
 }
 
 #made {
-  font-size: 14px ;
+  font-size: 14px;
   color: #8a99b3 !important;
   line-height: 2.143;
   margin-right: 50px;

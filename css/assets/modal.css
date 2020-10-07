@@ -1,0 +1,332 @@
+/* ..........ul sign_up_tab ............................... */
+.myNav-tabs {
+  border-bottom: 1px solid #dee2e6;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+
+.myNav-item {
+  text-align: center;
+  width: 50%;
+  margin-bottom: -1px;
+}
+
+
+.myNav-link.active {
+  background-color: #ffffff;
+  border: none;
+}
+
+.myNav-link.active {
+  border: none;
+  color: #484848 !important;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none !important;
+  background-color: #f5f5f5;
+  height: 70px;
+  line-height: 65px;
+  margin: 0;
+  padding: 0;
+}
+
+#home-tab {
+  border: none;
+  color: #484848 !important;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none !important;
+  height: 70px;
+  line-height: 65px;
+  margin: 0;
+  padding: 0;
+}
+
+#profile-tab {
+  border: none;
+  color: #484848 !important;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none !important;
+  height: 70px;
+  line-height: 65px;
+  margin: 0;
+  padding: 0;
+}
+
+/* ..........cd-user-modal ............................... */
+.cd-user-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(52, 54, 66, 0.9);
+  z-index: 3;
+  overflow-y: auto;
+  cursor: pointer;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+.cd-user-modal.is-visible {
+  visibility: visible;
+  opacity: 1;
+}
+.cd-user-modal.is-visible .cd-user-modal-container {
+  transform: translateY(0);
+}
+
+.cd-user-modal-container {
+  position: relative;
+  width: 750px;
+  height: 600px;
+  max-width: 750px;
+  background: #FFF;
+  margin: 3em auto 4em;
+  cursor: auto;
+  border-radius: 0.25em;
+  transform: translateY(-30px);
+  transition-property: transform;
+  transition-duration: 0.3s;
+}
+.cd-user-modal-container .cd-switcher:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.cd-user-modal-container .cd-switcher li {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+.cd-user-modal-container .cd-switcher li:first-child a {
+  border-radius: .25em 0 0 0;
+}
+.cd-user-modal-container .cd-switcher li:last-child a {
+  border-radius: 0 .25em 0 0;
+}
+.cd-user-modal-container .cd-switcher a {
+  display: block;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background: #d2d8d8;
+  color: #809191;
+}
+.cd-user-modal-container .cd-switcher a.selected {
+  background: #FFF;
+  color: #505260;
+}
+@media only screen and (min-width: 600px) {
+  .cd-user-modal-container {
+    margin: 4em auto;
+  }
+  .cd-user-modal-container .cd-switcher a {
+    height: 70px;
+    line-height: 70px;
+  }
+}
+
+/* ..........cd-login ............................... */
+
+/* ..........img ............................... */
+.login_thumb{
+ margin-right: -10px;
+}
+
+.myImg-fluid {
+  width: 340px !important;
+  height: auto;
+}
+
+/* ..........login_form ............................... */
+.login_form {
+  box-sizing: border-box;
+  margin-right: 20px;
+}
+
+.heading {
+  margin-bottom: 25px;
+}
+
+.gin {
+  color: #006c70 !important;
+  font-size: 16px;
+}
+
+.btn-fb {
+  background-color: #ffffff;
+  border: 1px solid #506dab;
+  border-radius: 8px;
+  color: #506dab;
+  font-size: 14px;
+  height: 42px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.fa {
+  font-size: 16px;
+  margin-top: 5px;
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  text-rendering: auto;
+}
+
+.btn-fb:hover {
+  background-color: #506DABFF;
+  color: white;
+} 
+
+.btn-googl {
+  background-color: #ffffff;
+  border: 1px solid #DD4F3EFF;
+  border-radius: 8px;
+  color: #DD4F3EFF;
+  font-size: 14px;
+  height: 42px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+
+.btn-googl:hover {
+  background-color:#DD4F3EFF;
+  color: white;
+} 
+
+.or {
+  margin-bottom: 25px;
+  position: relative;
+  margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+.or::before {
+  background-color: #ffffff;
+    bottom: 0;
+    color: #006c70;
+    content: "Or";
+    font-size: 14px;
+    position: absolute;
+    left: 0;
+    margin: 0 auto;
+    right: 0;
+    text-align: center;
+    top: -12px;
+    width: 10%;
+}
+
+.mr-sm-2 {
+  position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+    margin-bottom: 20px
+}
+
+#inlineFormInputGroupUsername2 {
+  background-color: #ffffff !important;
+  border: 1px solid #ebebeb !important;
+  border-radius: 8px;
+  color: #484848 !important;
+  font-size: 14px;
+  height: 42px;
+  line-height: 1.2;
+}
+
+#exampleInputPassword1 {
+  background-color: #ffffff !important;
+  border: 1px solid #ebebeb !important;
+  border-radius: 8px;
+  color: #484848 !important;
+  font-size: 14px;
+  height: 42px;
+  line-height: 1.2;
+}
+
+
+.input-group-text {
+  background-color: transparent;
+  border: none;
+  color: #006c70 !important;
+  height: 42px;
+  position: absolute;
+  right: 2px;
+}
+
+.custom-control {
+  position: relative;
+  display: block;
+  min-height: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.custom-control-input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+
+.custom-control-label {
+  position: relative;
+  margin-bottom: 0;
+  vertical-align: top;
+  font-size: 13px;
+  padding-top: 2px;
+  color: #484848 !important;
+}
+
+.login_form .btn-fpswd {
+  color: #8b91dd !important;
+  font-size: 13px;
+  line-height: 2.214;
+}
+
+.float-right {
+  float: right!important;
+}
+
+.btn-log {
+  border-radius: 8px;
+  background-color: #ff5a5f !important;
+  box-shadow: 0px 1px 4px 0px rgba(255, 90, 95, 0.3);
+  color: #ffffff !important;
+  font-size: 16px;
+  font-weight: bold;
+  height: 42px;
+  line-height: 1.2;
+  margin-bottom: 15px;
+  border: 2px solid #ff5a5f !important;
+}
+
+.btn-log:hover {
+  background-color: #ffffff !important;
+  color:#ff5a5f !important;
+  border: 1px solid #ff5a5f !important;
+}
+
+.acc {
+  font-size: 14px;
+  color: #484848 !important;
+  text-align: center;
+}
+
+.text-thm {
+  text-decoration: none;
+}
